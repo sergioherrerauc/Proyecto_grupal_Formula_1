@@ -23,4 +23,4 @@ Inicialmente, se registrarán datos del capital utilizado hasta 2021, de forma d
 
 A continuación se puede visualizar la muestra de grafico csv.
 
-![alt text](assets/Excel presupuestos F1.png)
+![alt text](assets/excel_presupuestos_F1.png)

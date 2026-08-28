@@ -1,5 +1,7 @@
 # Base de Datos
 
+Base: https://es.motorsport.com/f1/news/campeones-titulos-mundiales-formula1-historia/3148017/
+
 En el artículo “Todos los títulos, campeones y mundiales de F1 en la historia, año a año” publicado el 7 de diciembre de 2025 por Jose Carlos de Celis en el medio Motorsport, presenta los ganadores por año de la Fórmula 1. 
 En esta base de datos se entrega una tabla con información desde 1950, cuando nació el mundial de Fórmula 1. En esta se incluyen las variables: año, piloto, equipo, carreras, victorias, podios , poles y puntos de cada uno. 
 Esta información es valiosa para nuestra investigación ya que nos permite probar la hipótesis planteada. A través de esta información podremos identificar si existe una tendencia hacia ciertos equipos para ganar o es variado. Por lo tanto, esta base de datos es esencial para el trabajo. 

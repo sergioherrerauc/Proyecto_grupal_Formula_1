@@ -50,7 +50,7 @@ La historia incluirá una línea de tiempo que pasará por las temporadas, gráf
 Le pedimos a ChatGPT que generara imágenes de cómo imaginamos la página. En el prompt indicamos la idea general, colores principales y elementos por agregar. El producto final no se verá exactamente así, va a variar, pero la idea simplificada está en la imagen.
 
 
-![alt text](assets/f1a.png)
+![alt text](Otros_documentosassets/f1a.png)
 
 ![alt text](Otros_documentos/assets/f1b.png)
 

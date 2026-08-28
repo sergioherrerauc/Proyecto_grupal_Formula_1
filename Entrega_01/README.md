@@ -55,4 +55,4 @@ Dentro de los resultados esperados de este proyecto, se parte desde una base só
 
 A partir de esta base, también buscamos extrapolar al límite el potencial de nuestra historia, apuntando a la novedad de información de la misma. Poder revelar y cruzar un análisis sobre el impacto de las modificaciones reglamentarias y el cambio que introdujeron los motores híbridos, logrando anexar aquellos datos con hitos importantes ocurridos en la historia del deporte. Buscar el detrás de las causas económicas y hegemónicas que se han dictado en distintos periodos de años de la F1. 
 
-Evaluando si las intervenciones de la FIA han funcionado realmente a través del tiempo en su búsqueda de democratizar el deporte a una libre competencia de acceso a aquellos equipos de menor poder económico.
+Evaluando si las intervenciones de la FIA han funcionado realmente a través del tiempo, esto en su búsqueda de democratizar el deporte a una libre competencia de acceso a aquellos equipos de menor poder económico.

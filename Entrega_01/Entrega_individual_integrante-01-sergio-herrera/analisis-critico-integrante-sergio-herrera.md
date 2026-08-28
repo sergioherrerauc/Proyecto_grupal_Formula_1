@@ -1,11 +1,11 @@
 # Análisis Crítico Individual
 **Por Sergio Herrera Burgos.**
 
-### Economía dentro de la F1 (¿Qué esperas contar y/o revelar del tema?)
+### Economía dentro de la F1
 
-Durante años, la Fórmula 1 funcionó como una competencia sin restricciones financieras, lo que ha dado mucha libertad a que hubiese una brecha bastante marcada en el tema económico a favor de grandes equipos como Mercedes, Ferrari y Red Bull. El enfoque que quisiera revelar de este tema sería cómo era el ecosistema en los años previos a 2021 versus al actual 2025. 
+Durante años, la Fórmula 1 ha  funcionado como una competencia sin restricciones financieras, lo que dio pie a monopolizar la competencia, es decir que aquellas marcas/equipos con mayor poderío económico tenian libertad absoluta para dominar las pistas con la mayor tecnología y gastos exorbitantes (inimagibales de realizar apra equipos que recién buscaban hacerse su hueco en este mundo. Todo esto desencadeno una brecha bastante marcada en materia económica a favor de grandes equipos como Mercedes, Ferrari y Red Bull. El enfoque que quisiera revelar de este tema sería cómo era el ecosistema en los años previos a 2021 versus al actual 2025.
 
-La intención central es analizar a fondo cómo impactó el gran y famoso límite presupuestario llamado cost cap, una medida impuesta que teóricamente busca una democratización del deporte para que no solamente las escuderías ricas mantengan el monopolio de las carreras de la Fórmula 1. A través de este análisis, espero visibilizar la correlación directa entre los millones invertidos y los puntos obtenidos en la pista, desmitificando la idea de que el éxito deportivo dependía únicamente del talento del piloto, cuando en realidad la victoria se pavimentaba desde las fábricas con presupuestos inalcanzables para el resto de la parrilla.
+Mi intencion principal es analizar a fondo cómo impactó el gran y famoso límite presupuestario llamado "Cost Cap", medida impuesta la cual teóricamente busca democratizar el deporte, de forma que no pase lo que se veía en patrones anteriores, donde era previsible quien sería el ganador por su billete. A través de este análisis, espero visibilizar la correlación directa entre los miles de millones invertidos y los puntos obtenidos en la pista, una idea de desmitificar que el éxito deportivo dependía únicamente del talento del piloto, o como diríamos que tan bien se le daba el volante. Esta realidad era sesgada porque la habilidad sin el equipo de última punta hacia imposible emparejar estas carreras, de forma que se hacía un sueño inalcanzable para el resto de los pilotos de la parrilla.
 
 ### Ideas para contar la historia
 

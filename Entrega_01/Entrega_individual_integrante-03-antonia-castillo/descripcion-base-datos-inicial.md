@@ -18,6 +18,7 @@ Con estos datos construiremos nuestra propia base con nuestro enfoque. Cada temp
 
 ### Excel y variables
 
-![alt text](/assets/Excel.png)
+![alt text](assets/Excel.png)
+
 
 

@@ -23,4 +23,4 @@ Inicialmente, se registrarán datos del capital utilizado hasta 2021, de forma d
 
 A continuación se puede visualizar la muestra de grafico csv.
 
-![alt text](Entrega_individual_integrante-01-sergio-herrera/assets)
+![alt text](assets/Excel presupuestos F1.png)

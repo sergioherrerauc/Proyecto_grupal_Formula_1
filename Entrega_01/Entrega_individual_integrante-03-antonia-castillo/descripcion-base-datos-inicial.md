@@ -3,6 +3,11 @@ Por Antonia Castillo
 
 Base de datos: https://github.com/jolpica/jolpica-f1
 
+## Método de recolección
+La base de datos se construirá con API Jolpica F1. Lo que haremos es extraer automáticamente la información desde los 2000 en el formato JSON. A partir de esto, generaremos un tabla y cada fila representará una escudería en cierto período. Además, se calcularán variables adicionales como el puntaje de cada uno y el porcentaje de victorias. 
+
+También, realizaremos de manera manual una base de datos de hitos históricos. En esta, se incluirán los cambios en el área técnica, deportiva y financiera que sean relevantes (mediante documentos de la FIA y Formula1.com). A partir de esto, se podrá contextualizar los períodos en los que hay mayor o menor concentración de victorias hacia ciertos equipos. 
+
 ### Autor y descripción
 Jolpica F1 es una API de código abierto, que se mantiene por colaboradores voluntarios. Está publicada en Github, y la encontré investigando por una base de datos con toda la información de la historia de la Fórmula 1. La información puede consultarse directamente mediante su API y sus vínculos con otras páginas, aunque también se pueden descargar bases de datos desde el propio proyecto.
 

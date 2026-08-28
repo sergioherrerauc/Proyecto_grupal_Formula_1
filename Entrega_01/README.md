@@ -49,7 +49,12 @@ La historia incluirá una línea de tiempo que pasará por las temporadas, gráf
 **Referencias propias:**
 Le pedimos a ChatGPT que generara imágenes de cómo imaginamos la página. En el prompt indicamos la idea general, colores principales y elementos por agregar. El producto final no se verá exactamente así, va a variar, pero la idea simplificada está en la imagen.
 
-*(Insertar imagen aquí)*
+
+![alt text](assets/f1a.png)
+
+![alt text](assets/f1b.png)
+
+
 ## Resultados
 Dentro de los resultados esperados de este proyecto, se parte desde una base sólida; solamente como el mínimo, construiremos una radiografía tanto visual como descriptiva de la concentración de victorias y éxito de la Fórmula 1 desde los 2000 hasta lo más reciente. Con los datos duros que ya recabamos podremos contar de forma empírica: acaparamiento de victorias, podios y campeonatos liderados por escuderías menores, y producir gráficas para demostrar la desigualdad y brechas existentes en competencias específicas.
 

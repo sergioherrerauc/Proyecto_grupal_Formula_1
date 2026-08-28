@@ -1,4 +1,4 @@
-Análisis crítico individual
+# Análisis crítico individual
 
 Hoy en día la Fórmula 1 tiende a analizarse desde los resultados deportivos. Sin embargo, también es posible enfocarse en la manera en que se distribuye el éxito entre los diferentes equipos que participan año a año. De esta manera, nuestra investigación parte de la hipótesis de que las victorias tienden a concentrarse en un número reducido de equipos. 
 

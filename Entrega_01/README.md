@@ -1,5 +1,3 @@
-# Proyecto_grupal_Formula_1
-
 # Presentación de la propuesta: ¿Todos pueden ganar? La concentración del éxito en la Fórmula 1
 
 ## Síntesis del proyecto

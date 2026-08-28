@@ -1,4 +1,4 @@
-# Presentación de la propuesta: ¿Todos pueden ganar? La concentración del éxito en la Fórmula 1
+# ¿Todos pueden ganar? La concentración del éxito en la Fórmula 1
 
 ## Síntesis del proyecto
 La Fórmula 1 es la competición más prestigiosa de automovilismo internacional. Esta categoría reúne cada temporada a distintos equipos con sus respectivos pilotos, que compiten bajo el mismo campeonato. Desde el año 2000, la edición ha atravesado distintos cambios técnicos, reglamentarios, deportivos y financieros que han modificado las condiciones de competencia y la forma en que los equipos desarrollan sus monoplazas y estrategias.  

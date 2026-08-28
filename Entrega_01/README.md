@@ -52,7 +52,7 @@ Le pedimos a ChatGPT que generara imágenes de cómo imaginamos la página. En e
 
 ![alt text](assets/f1a.png)
 
-![alt text](assets/f1b.png)
+![alt text](Entrega_01/Otros_documentos/assets/f1b.png)
 
 
 ## Resultados

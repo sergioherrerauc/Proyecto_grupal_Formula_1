@@ -20,3 +20,7 @@ Publicada dentro de su plataforma, la cual contempla una gran gama de deportes c
 Debido a que la Fórmula 1 no cuenta con un registro financiero único y centralizado de libre acceso (para los años anteriores a 2021), la recolección de los datos se realiza de forma manual, contrastando y recabando las cifras publicadas por año y análisis económicos de los medios. Los datos se estandarizan en una tabla para clarificar los nombres de los equipos, junto a las cifras monetarias por año. 
 
 Inicialmente, se registrarán datos del capital utilizado hasta 2021, de forma de poder contrastar visualmente el impacto de la nueva normativa y cómo ha ido incrementando, adjuntando también los gastos de los años posteriores más adelante.
+
+A continuación se puede visualizar la muestra de grafico csv.
+
+![alt text](Entrega_individual_integrante-01-sergio-herrera/assets)

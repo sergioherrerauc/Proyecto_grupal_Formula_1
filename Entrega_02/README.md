@@ -1,4 +1,4 @@
-# Entrega 02: Readme General
+# ¿Todos pueden ganar? La concentración del éxito en la Fórmula 1
 
 ## HIPÓTESIS
 Una mayor diversidad de ganadores en la Fórmula 1 no necesariamente implica una competencia más equilibrada: desde el año 2000, las victorias pueden repartirse entre varios pilotos mientras el control del campeonato continúa concentrado en pocas escuderías, favorecido por diferencias deportivas, técnicas y económicas que dificultan una distribución equilibrada de la competencia.

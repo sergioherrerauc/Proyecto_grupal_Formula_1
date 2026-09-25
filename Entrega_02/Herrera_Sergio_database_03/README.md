@@ -8,7 +8,7 @@ Además, visite y utilice como base de datos los puntos obtenidos por escudería
 Fuentes de los Datos en Simple:
 
 * **Datos Financieros (2015-2019):** Estimaciones de gastos obtenidas del artículo periodístico *"What are the Budgets for F1 Teams Including Mercedes, Red Bull & Ferrari?"* publicado en la plataforma EssentiallySports. (https://www.essentiallysports.com/f1-news-what-are-the-budgets-for-f1-teams-including-mercedes-red-bull-ferrari/)
-* **Datos Deportivos (Puntos FIA):** Extraídos de los registros históricos oficiales, revisando por año. (https://www.formula1.com/en/results/2026/team)`)
+* **Datos Deportivos (Puntos FIA):** Extraídos de los registros históricos oficiales, revisando por año. (https://www.formula1.com/en/results/2026/team)
 
 La diferencia más grande con mi entrega anterior es que la base original solo tenía la plata pura y dura. Para poder enriquecerla, usé esos datos financieros y los crucé con los **Puntos** oficiales de la FIA que hizo cada equipo en el campeonato aquellos años. Así, al tener el dinero gastado y los puntos logrados, pude crear una nueva métrica a la que llamé `Costo_Por_Punto`. Gracias a esta métrica podemos reflejar la eficiencia real de las escuderías: a veces el que más gasta no es el que mejor rinde, y con esta columna podemos ver a qué equipo le salió carísimo cada punto y quién optimizó bien este recurso. *(Nota: Las victorias y posiciones finales se trataran en otra base de datos del grupo).*
 

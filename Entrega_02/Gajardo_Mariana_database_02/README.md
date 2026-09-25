@@ -12,7 +12,7 @@ Luego se presentan las posición de todos los equipos durante ese año y el punt
 Para realizar la limpieza de datos, utilicé la información de la página oficial de F1 en donde aparecían los ganadores por año y sus nombres. Sin embargo, buscando profundizar la información, se agregaron todos los equipos de cada año con el puntaje que obtuvieron. Para hacer eso, no utilicé herramientas, ya que lo hice a mano. 
 
 **Se eligieron las siguientes fuentes de datos**
-Página F1: es muy segura esta información, es clara y ordenada. 
+Página F1: es muy segura esta información, es clara y ordenada. https://www.formula1.com/en/results/2000/races 
 GitHub de Jolpica: aquí hay mucha información disponible que muchas veces no se encuentra en internet. 
 
 **Preguntas que permite responder:**

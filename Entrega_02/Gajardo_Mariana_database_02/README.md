@@ -14,7 +14,8 @@ Para realizar la limpieza de datos, utilicé la información de la página ofici
 **Se eligieron las siguientes fuentes de datos**
 Página F1: es muy segura esta información, es clara y ordenada. https://www.formula1.com/en/results/2000/races 
 
-GitHub de Jolpica: aquí hay mucha información disponible que muchas veces no se encuentra en internet. 
+GitHub de Jolpica: aquí hay mucha información disponible que muchas veces no se encuentra en internet. https://github.com/jolpica/jolpica-f1
+https://www.formula1.com/en/latest/article/drivers-teams-cars-circuits-and-more-everything-you-need-to-know-about.7iQfL3Rivf1comzdqV5jwc
 
 **Preguntas que permite responder:**
 ¿Qué tan concentradas están las victorias entre pilotos y escuderías desde el año 2000?

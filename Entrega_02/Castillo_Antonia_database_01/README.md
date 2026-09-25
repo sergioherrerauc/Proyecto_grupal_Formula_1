@@ -1,63 +1,51 @@
-# ¿Todos pueden ganar? La concentración del éxito en la Fórmula 1
+# Documentación del proceso de limpieza de datos
 
-## Síntesis del proyecto
-La Fórmula 1 es la competición más prestigiosa de automovilismo internacional. Esta categoría reúne cada temporada a distintos equipos con sus respectivos pilotos, que compiten bajo el mismo campeonato. Desde el año 2000, la edición ha atravesado distintos cambios técnicos, reglamentarios, deportivos y financieros que han modificado las condiciones de competencia y la forma en que los equipos desarrollan sus monoplazas y estrategias.  
+El objetivo de mi base fue organizar información sobre las temporadas de Fórmula 1 entre 2000 y 2025 para analizar qué tan concentradas estuvieron las victorias entre pilotos y constructores. Elegí trabajar con la temporada como unidad de análisis, por lo que cada fila representa un campeonato completo.
 
-Por esta misma razón, últimamente ha habido muchos cambios en la estructura por la implementación de novedades. La cantidad de carreras, los sistemas de puntuación, los reglamentos técnicos y los presupuestos financieros han transformado la F1, permitiéndonos observar distintas etapas dentro de la historia reciente, lo cual nos hace plantearnos preguntas sobre cómo se ha distribuido el éxito entre quienes participan y qué lo ha definido. 
+## Proceso de limpieza y construcción
 
-El proyecto busca investigar qué tan competitiva ha sido la Fórmula 1 desde el año 2000, observando cómo se distribuyen las victorias y campeonatos entre pilotos y escuderías. A partir de datos históricos se buscará identificar patrones y comparar distintos períodos, con el objetivo de determinar si el éxito se reparte entre varios participantes o si tiende a concentrarse en un grupo reducido.
+Primero definí el período de estudio entre 2000 y 2025. No incluí 2026 porque la temporada todavía está en desarrollo y compararla con años completos podría alterar los resultados.
 
-**Pregunta de investigación:** ¿Cómo se configura la concentración competitiva en la Fórmula 1 desde el año 2000 a la actualidad? 
+La principal fuente que utilicé fue la página oficial de Fórmula 1. Para cada temporada revisé los resultados de las carreras, la clasificación final de pilotos y la clasificación final de constructores. Con esta información registré la cantidad total de carreras, los pilotos ganadores distintos, los constructores ganadores distintos, el campeón mundial de pilotos, su escudería y el campeón mundial de constructores.
 
-**Hipótesis:** La concentración competitiva en la Fórmula 1 desde el año 2000 se ha estructurado en torno al dominio recurrente de un grupo reducido de escuderías, favorecido por diferencias deportivas, técnicas y económicas que dificultan una distribución equilibrada de la competencia.
+En un comienzo pensé en usar al piloto con más victorias como variable principal. Sin embargo, al revisar los datos noté que el piloto que gana más carreras no siempre termina siendo campeón, ya que el campeonato depende de los puntos acumulados durante toda la temporada. Por eso decidí trabajar con el campeón mundial y contar cuántas carreras ganó.
 
-## Antecedentes del tema
-Se ha publicado distinta información respecto al tema. En la página oficial de la Fórmula 1, se encuentra el apartado “¿Quiénes son los pilotos de F1 más exitosos de todos los tiempos?”, en donde se menciona que en la lista histórica, Michael Schumacher comparte el récord de siete títulos con Lewis Hamilton. También, se agregan los siguientes pilotos en la lista.
+Después calculé el porcentaje de victorias del campeón de pilotos y del constructor campeón en relación con el total de carreras. También calculé el porcentaje correspondiente al resto. Esto permite comparar temporadas con distinta cantidad de Grandes Premios.
 
-Además, se mencionan los equipos más exitosos, destacando a Ferrari como el con mayores campeonatos ganados, seguido de McLaren, Mercedes, Red Bull y Williams. En este documento se presentan los datos de manera objetiva a través de hechos. Sin embargo, se incluye información previa a los 2000, lo que se aleja de nuestra selección de tiempo. 
+Además, agregué una columna de control para revisar que las victorias registradas nunca superaran el número total de carreras. También revisé que no existieran temporadas repetidas, datos faltantes o errores en los cálculos.
 
-Además, Motorsport publicó el artículo “Todos los títulos, campeones y mundiales de la F1 en la historia, año a año” el 2025, en el que se muestra un gráfico indicando el piloto, equipos y puntajes de los ganadores desde 1950, cuando se realizó por primera vez. De esta manera, el enfoque presenta la misma dificultad del documento anterior, ya que nosotros lo analizaremos desde el 2000. 
+## Herramientas utilizadas:
 
-## Datos
-Para probar la tesis de que existe una concentración competitiva en la F1 desde los 2000, llevando a que un grupo reducido de escuderías tienda a ganar la victoria, necesitamos analizar la base de datos año por año para obtener las victorias repetidas. Esto será sencillo de obtener, ya que esa información existe, es pública y confiable, al ser publicada por la página oficial de F1 y un medio de noticias. 
+Trabajé principalmente con Excel para ordenar los datos, aplicar fórmulas y calcular porcentajes.
 
-Ahora bien, la segunda parte de la hipótesis indica que esta concentración se debe a diferencias deportivas, técnicas y económicas, lo que dificulta una distribución equilibrada de la competencia. Para probar esto, se deberá buscar más información y conseguir esos datos que aún no los tenemos. Para obtenerlos buscaremos los montos requeridos para acceder a la competencia y los implementos necesarios. Esto requerirá una mayor investigación pero deberían ser públicos. 
+También utilicé inteligencia artificial (ChatGPT) como apoyo para ordenar información, revisar fórmulas y estructurar mejor la base. De todas formas, revisé y corroboré manualmente los datos con las fuentes originales antes de incorporarlos. También usé inteligencia artificial para ayudarme a transformar algunas tablas al formato Markdown necesario para GitHub, pero revisé el resultado final antes de subirlo.
 
-## Preguntas a responder
-Buscamos responder una serie de preguntas, las cuales se concentrarían en entender y analizar la incidencia de distintas variables en el éxito de la Fórmula 1, en correlación con el capital, cambios del reglamento y ventanas de oportunidades a la competencia. Algunas de estas interrogantes serían:
+## Fuentes 
 
-* ¿Qué tan grande es la distancia entre los líderes y el resto de la tabla?
-* ¿Los cambios de reglas qué tan efectivos han resultado para “nivelar la competencia”?
-* ¿Cómo cambia el podio en la acumulación de derrotas y victorias con los nuevos reglamentos? Por ejemplo, el límite presupuestario.
-* ¿Qué tan influyente es el capital monetario para asegurar el triunfo en las carreras?
-* ¿Cuál es el registro de oportunidad y éxito en equipos pequeños de la competencia?
+La fuente principal fue Formula1.com, porque corresponde al sitio oficial de la competencia y contiene los resultados históricos:
 
-## Historia visual
-La historia recorre los últimos años de la Fórmula 1 y se plantea una pregunta central: realmente “¿Todos pueden ganar?”. El proyecto busca mostrar cómo se ha distribuido el éxito de esta disciplina desde el año 2000, considerando los recientes 25 campeonatos. El foco estará en quién fue campeón, qué tan concentradas estuvieron las victorias y qué factores afectaron los resultados.
+https://www.formula1.com/en/results/
 
-Lo nuevo del proyecto es observar la concentración competitiva, analizarla y sacar conclusiones sobre ella. Definir aspectos que hacen la diferencia, que hacen el deporte más emocionante y por lo tanto atractivo y rentable. Por esto, compararemos las temporadas y buscaremos entender cómo funciona desde adentro. 
+También utilicé Jolpica F1 como fuente complementaria, ya que organiza datos históricos de Fórmula 1 y permite acceder a ellos mediante una API:
 
-Nos gustaría desarrollar una webstory interactiva con scroll, donde el usuario recorra una pista, con diferentes paradas que contengan información, y que el camino les sirva para ir descifrando, en conjunto con el grupo, la respuesta a la pregunta central. Será un circuito que recorrerá el tiempo y los cambios en la Fórmula 1. Al llegar a la meta, el receptor habrá vivido una experiencia, que es la carrera de vida de la disciplina automovilística. 
+https://github.com/jolpica/jolpica-f1
 
-La historia incluirá una línea de tiempo que pasará por las temporadas, gráficos interactivos, comparaciones de los equipos, tarjetas con hitos y cambios relevantes, entre otros. Estos elementos permitirán que el usuario vea de forma rápida y entretenida cómo se reparte el éxito y cuál es la razón de ese triunfo.
+## Preguntas que puedo responder con la base
 
-**Referencias visuales:**
-* [K-pop Generations - The Pudding](https://pudding.cool/2026/05/kpop-generations/)
-* [NBA Uniforms - The Pudding](https://pudding.cool/2024/10/nba-uniforms/)
-* [Superteams - The Pudding](https://pudding.cool/2017/10/superteams/)
+*1. ¿Una mayor cantidad de pilotos ganadores significa una temporada más competitiva?*
 
-**Referencias propias:**
-Le pedimos a ChatGPT que generara imágenes de cómo imaginamos la página. En el prompt indicamos la idea general, colores principales y elementos por agregar. El producto final no se verá exactamente así, va a variar, pero la idea simplificada está en la imagen.
+Puedo comparar los pilotos ganadores distintos con el porcentaje de victorias del campeón para identificar temporadas con variedad de ganadores, pero con una alta concentración del éxito.
 
+*2. ¿Qué porcentaje de las carreras gana el constructor campeón?*
 
-![alt text](Otros_documentos/assets/f1a.png)
+La base permite comparar cuánto del calendario fue ganado por la escudería campeona y cuánto quedó repartido entre los demás equipos.
 
-![alt text](Otros_documentos/assets/f1b.png)
+*3. ¿Cómo ha cambiado la cantidad de ganadores desde el año 2000?*
 
+Puedo comparar año a año la cantidad de pilotos y constructores distintos que lograron ganar carreras.
 
-## Resultados
-Dentro de los resultados esperados de este proyecto, se parte desde una base sólida; solamente como el mínimo, construiremos una radiografía tanto visual como descriptiva de la concentración de victorias y éxito de la Fórmula 1 desde los 2000 hasta lo más reciente. Con los datos duros que ya recabamos podremos contar de forma empírica: acaparamiento de victorias, podios y campeonatos liderados por escuderías menores, y producir gráficas para demostrar la desigualdad y brechas existentes en competencias específicas.
+*4. ¿El campeón de pilotos siempre pertenece al constructor campeón?*
 
-A partir de esta base, también buscamos extrapolar al límite el potencial de nuestra historia, apuntando a la novedad de información de la misma. Poder revelar y cruzar un análisis sobre el impacto de las modificaciones reglamentarias y el cambio que introdujeron los motores híbridos, logrando anexar aquellos datos con hitos importantes ocurridos en la historia del deporte. Buscar el detrás de las causas económicas y hegemónicas que se han dictado en distintos periodos de años de la F1. 
+Al comparar la escudería del campeón de pilotos con el campeón de constructores puedo identificar temporadas donde ambos títulos fueron obtenidos por equipos diferentes.
 
-Evaluando si las intervenciones de la FIA han funcionado realmente a través del tiempo, esto en su búsqueda de democratizar el deporte a una libre competencia de acceso a aquellos equipos de menor poder económico.
+Con estas variables puedo crear tablas dinámicas y visualizaciones para comparar temporadas y analizar si una mayor variedad de ganadores significa realmente una competencia más equilibrada.

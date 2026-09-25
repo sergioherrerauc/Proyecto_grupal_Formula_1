@@ -6,6 +6,7 @@ Como fuente complementaria se utilizó Jolpica F1, una API de datos históricos 
 
 
 https://www.formula1.com/en/results/2000/races
+
 https://github.com/jolpica/jolpica-f1
 
 ## Metodología de construcción

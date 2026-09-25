@@ -28,10 +28,3 @@ Respecto al año 2020, este quedó definitivamente fuera de la matriz debido a l
 1. ¿Cuál es la diferencia real en millones de dólares entre el gasto de un equipo "Top 3" y un equipo de la "Zona Baja" en el último lustro de gasto libre (2015-2019)?
 2. Mirando la métrica de `Costo_Por_Punto`, ¿qué escudería de la Zona Media logró ser más eficiente con su presupuesto en comparación a los líderes?
 3. ¿Cómo fue subiendo año a año el gasto total de la Fórmula 1 justo antes del colapso que generó la pandemia en 2020?
-
-### Vía secundaria de investigación a futuro
-
-A futuro, sí sería interesante estudiar esas décadas pasadas, pero no tratando de adivinar presupuestos. La propuesta sería complementar este análisis con una nueva base de datos enfocada en las estimaciones que sí se han realizado, pero insisto, no son los datos verídicos como este otro periodo el cual fue el principal motor de cambio de la F1. Queda como propuesta para un análisis puramente enfocado en fallas mecánicas o tiempos de carrera donde no dependamos de balances financieros.
-
-Decidí no incluir los años anteriores al 2015 porque, tras investigar exhaustivamente, me di cuenta de que esos datos están incompletos, son inexistentes e inclusive están malversados en algunos casos. 
-En esa época, la Fórmula 1 no tenía regulaciones de auditoría claras. Si bien algunas marcas gigantes como Ferrari salían de repente a decir cuánto gastaban, esa no era la realidad de todos. La gran mayoría de los equipos chicos y medianos se mantenían a flote con platas de tabacaleras o tratos que nunca fueron públicos. Debido a esta falta de transparencia, auditorías y datos, es imposible hacer un contraste empírico y serio de cuánto gastaba realmente toda la parrilla. Por lo mismo, evité integrarlos por la falta de veracidad.

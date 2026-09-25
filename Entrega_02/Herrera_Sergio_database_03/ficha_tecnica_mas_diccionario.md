@@ -50,3 +50,5 @@ A continuación, el detalle de cada columna de nuestra base, explicado de forma 
   * **Qué es:** Nuestra métrica calculada. Es el presupuesto dividido por los puntos. Muestra cuántos millones costó lograr un solo punto. Si no lograron puntos, el valor es 0.0.
   * **Ejemplo:** 0.75, 2.1.
   * **Formato:** Número con decimales.
+ 
+# Anotaciones extras

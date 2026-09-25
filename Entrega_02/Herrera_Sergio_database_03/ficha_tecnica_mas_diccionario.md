@@ -5,10 +5,10 @@ Esta base de datos cruza la plata gastada por las escuderías con su rendimiento
 * **Datos Financieros (2015-2019):** Toda la información de presupuestos salió del artículo periodístico *"What are the Budgets for F1 Teams Including Mercedes, Red Bull & Ferrari?"* publicado en la plataforma EssentiallySports ([Enlace](https://www.essentiallysports.com/f1-news-what-are-the-budgets-for-f1-teams-including-mercedes-red-bull-ferrari/)).
 * **Datos Deportivos (Puntos FIA):** Extraídos revisando año por año los registros históricos oficiales del Campeonato de Constructores en la web de la Fórmula 1 ([Enlace de consulta base](https://www.formula1.com/en/results/2026/team), ajustando el año en la URL según corresponda).
 
-## Cómo armamos la base de datos (Metodología)
-Primero, limpiamos la base obtenida de EssentiallySports para transformarla en una lista larga, dejando una fila única por equipo y por año. Nos quedamos estrictamente con el periodo 2015-2019 para reflejar la era de "gasto libre", descartando 2020 por la anomalía de la pandemia y 2021 en adelante por el nuevo reglamento del límite presupuestario. 
+## Metodología
+Primero, limpie la base obtenida de EssentiallySports para transformarla en una lista larga, dejando una fila única por equipo y por año. Nos quedamos estrictamente con el periodo 2015-2019 para reflejar la era de "gasto libre", descartando 2020 por la anomalía de la pandemia y 2021 en adelante por el nuevo reglamento del límite presupuestario. 
 
-Luego, agregamos la columna de los puntos oficiales obtenidos. Con el dinero y los puntos listos, calculamos de forma automática la nueva métrica `Costo_Por_Punto` para medir la eficiencia financiera (dividiendo el presupuesto por los puntos logrados). Al equipo Haas se le asignaron valores en cero para el año 2015 porque aún no entraban a competir en la categoría.
+Luego, agregamos la columna de los puntos oficiales obtenidos. Con el dinero y los puntos listos, calculamos de forma automática la nueva métrica `Costo_Por_Punto` para medir la eficiencia financiera (dividiendo el presupuesto por los puntos logrados). Al equipo Haas se le asignaron valores en cero los años que aún no entraba a competir porque aún no entraban a competir en la categoría.
 
 ## Características principales
 * **De dónde vienen:** Recopilación mixta (periodismo financiero + registros oficiales deportivos de la F1).

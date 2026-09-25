@@ -3,7 +3,7 @@
 ## De dónde sacamos los datos (Fuentes)
 Esta base de datos cruza la plata gastada por las escuderías con su rendimiento real en la pista.
 * **Datos Financieros (2015-2019):** Toda la información de presupuestos salió del artículo periodístico *"What are the Budgets for F1 Teams Including Mercedes, Red Bull & Ferrari?"* publicado en la plataforma ([EssentiallySports](https://www.essentiallysports.com/f1-news-what-are-the-budgets-for-f1-teams-including-mercedes-red-bull-ferrari/)).
-* **Datos Deportivos (Puntos FIA):** Extraídos revisando año por año los registros históricos oficiales del Campeonato de Constructores en la web de la Fórmula 1 ([formula 1 resultados](https://www.formula1.com/en/results/2026/team), ajustando el año en la URL según corresponda).
+* **Datos Deportivos (Puntos FIA):** Extraídos revisando año por año los registros históricos oficiales del Campeonato de Constructores en la web de la Fórmula 1 [formula 1 resultados](https://www.formula1.com/en/results/2026/team), (ajustando el año en la URL según corresponda).
 
 ## Metodología
 Primero, limpie la base obtenida de EssentiallySports para transformarla en una lista larga, dejando una fila única por equipo y por año. Nos quedamos estrictamente con el periodo 2015-2019 para reflejar la era de "gasto libre", descartando 2020 por la anomalía de la pandemia y 2021 en adelante por el nuevo reglamento del límite presupuestario. 

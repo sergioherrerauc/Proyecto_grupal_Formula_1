@@ -13,6 +13,7 @@ Para realizar la limpieza de datos, utilicé la información de la página ofici
 
 **Se eligieron las siguientes fuentes de datos**
 Página F1: es muy segura esta información, es clara y ordenada. https://www.formula1.com/en/results/2000/races 
+
 GitHub de Jolpica: aquí hay mucha información disponible que muchas veces no se encuentra en internet. 
 
 **Preguntas que permite responder:**

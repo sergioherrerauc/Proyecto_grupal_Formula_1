@@ -6,7 +6,7 @@ La base de datos contiene información de 26 temporadas de Fórmula 1, comprendi
 
 Para esta entrega se utilizó la misma base de datos limpia presentada en la Entrega 02, sin realizar modificaciones al archivo original. La visualización considera únicamente las temporadas 2016–2025, seleccionadas mediante Python para analizar la evolución del porcentaje de victorias de los campeones mundiales de pilotos durante la última década.
 
-#### Fuente de los datos
+### Fuente de los datos
 La base fue construida principalmente con información oficial de Formula 1, utilizando los resultados de carreras, la clasificación final de pilotos y la clasificación final de constructores para las temporadas 2000–2025.
 Como fuente complementaria se utilizó Jolpica F1, una API de datos históricos de Fórmula 1 que permite contrastar y reproducir la información.
 

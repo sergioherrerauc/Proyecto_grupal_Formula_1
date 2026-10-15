@@ -1,40 +1,40 @@
-# Ficha técnica y diccionario de datos
+# Ficha técnica de la base de datos
 
-## Fuente de los datos
+## 1. Características de los datos
+
+La base de datos contiene información de 26 temporadas de Fórmula 1, comprendidas entre los años 2000 y 2025. Cada fila representa una temporada e incluye variables numéricas, categóricas y porcentuales relacionadas con la cantidad de carreras disputadas, los campeones mundiales de pilotos y constructores, y la distribución de victorias.
+
+Para esta entrega se utilizó la misma base de datos limpia presentada en la Entrega 02, sin realizar modificaciones al archivo original. La visualización considera únicamente las temporadas 2016–2025, seleccionadas mediante Python para analizar la evolución del porcentaje de victorias de los campeones mundiales de pilotos durante la última década.
+
+#### Fuente de los datos
 La base fue construida principalmente con información oficial de Formula 1, utilizando los resultados de carreras, la clasificación final de pilotos y la clasificación final de constructores para las temporadas 2000–2025.
 Como fuente complementaria se utilizó Jolpica F1, una API de datos históricos de Fórmula 1 que permite contrastar y reproducir la información.
-
 
 https://www.formula1.com/en/results/2000/races
 
 https://github.com/jolpica/jolpica-f1
 
-## Metodología de construcción
-Cada fila representa una temporada de Fórmula 1 entre 2000 y 2025. Para cada año se registró la cantidad de carreras, los pilotos y constructores ganadores distintos, el campeón mundial de pilotos y su escudería, y el campeón mundial de constructores.
-Luego se contabilizaron las victorias obtenidas por cada campeón y se calcularon sus porcentajes respecto al total de carreras, además del porcentaje correspondiente al resto de los competidores.
+## 2. Variables incorporadas
 
-## Alcance de los datos
-La base considera 26 temporadas completas, desde 2000 hasta 2025. La unidad de análisis es la temporada y no se incluyen carreras sprint ni la temporada 2026, ya que todavía está en desarrollo.
-Características de los datos
-La base contiene variables numéricas, porcentuales, categóricas y textuales. Su estructura permite comparar temporadas con diferente cantidad de carreras y observar qué tan concentradas estuvieron las victorias en los campeones.
+| Variable | Descripción |
+|---|---|
+| Temporada | Año correspondiente al campeonato de Fórmula 1. |
+| Total Carreras | Cantidad total de Grandes Premios disputados durante la temporada. |
+| Pilotos Ganadores Distintos | Número de pilotos diferentes que ganaron al menos una carrera. |
+| Constructores Ganadores Distintos | Número de escuderías diferentes que ganaron al menos una carrera. |
+| Campeon Mundial - Piloto | Nombre del piloto campeón mundial de la temporada. |
+| Escuderia Piloto Campeon | Escudería con la que compitió el campeón mundial de pilotos. |
+| Victorias Campeon - Piloto | Cantidad de carreras ganadas por el campeón mundial de pilotos. |
+| Porcentaje Victorias Campeon - Piloto | Porcentaje de carreras ganadas por el campeón mundial respecto al total de la temporada. |
+| Porcentaje Victorias Resto - Pilotos | Porcentaje de carreras ganadas por los demás pilotos durante la temporada. |
+| Campeon Mundial - Constructor | Nombre de la escudería campeona mundial de constructores. |
+| Victorias Campeon - Constructor | Cantidad de carreras ganadas por la escudería campeona. |
+| Porcentaje Victorias Campeon - Constructor | Porcentaje de carreras ganadas por el constructor campeón respecto al total de la temporada. |
+| Porcentaje Victorias Resto - Constructores | Porcentaje de carreras ganadas por las demás escuderías durante la temporada. |
 
-## Otras observaciones
-El piloto campeón no necesariamente es quien ganó más carreras durante la temporada, ya que el campeonato se define mediante la acumulación de puntos. Por esta razón, la base trabaja con el campeón mundial y analiza qué proporción de las carreras consiguió ganar.
+## 3. Observaciones sobre la base de datos
 
-## Diccionario de datos
-
-| Variable | Descripción | Tipo de dato | Valores posibles | Observaciones |
-|---|---|---|---|---|
-| Temporada | Año del campeonato. | Entero | 2000–2025 | Una fila por temporada. |
-| Total Carreras | Cantidad de Grandes Premios disputados. | Entero | Número positivo | No incluye sprints. |
-| Pilotos Ganadores Distintos | Cantidad de pilotos diferentes que ganaron al menos una carrera. | Entero | 1 o más | Mide diversidad de ganadores. |
-| Constructores Ganadores Distintos | Cantidad de equipos diferentes que ganaron al menos una carrera. | Entero | 1 o más | Mide diversidad de escuderías ganadoras. |
-| Campeón Mundial Piloto | Piloto campeón de la temporada. | Texto | Nombre del piloto | Puede no ser quien más carreras ganó. |
-| Escudería Piloto Campeón | Equipo con el que compitió el campeón de pilotos. | Texto | Nombre de escudería | Puede ser distinta al campeón de constructores. |
-| Victorias Campeón Piloto | Carreras ganadas por el campeón de pilotos. | Entero | 0 al total de carreras | Solo considera Grandes Premios. |
-| Porcentaje Victorias Campeón Piloto | Porcentaje de carreras ganadas por el campeón. | Porcentaje | 0–100 % | Victorias del campeón dividido por el total de carreras. |
-| Porcentaje Victorias Resto Pilotos | Porcentaje de carreras ganadas por los demás pilotos. | Porcentaje | 0–100 % | Complemento del porcentaje del campeón. |
-| Campeón Mundial Constructor | Escudería campeona del campeonato de constructores. | Texto | Nombre de escudería | Puede ser distinta a la escudería del campeón de pilotos. |
-| Victorias Campeón Constructor | Carreras ganadas por la escudería campeona. | Entero | 0 al total de carreras | Suma las victorias de sus pilotos. |
-| Porcentaje Victorias Campeón Constructor | Porcentaje de carreras ganadas por el constructor campeón. | Porcentaje | 0–100 % | Victorias del constructor dividido por el total de carreras. |
-| Porcentaje Victorias Resto Constructores | Porcentaje ganado por las demás escuderías. | Porcentaje | 0–100 % | Complemento del porcentaje del campeón. |
+- La base considera únicamente los resultados de los Grandes Premios, sin incluir las carreras sprint.
+- El campeón mundial de pilotos no necesariamente corresponde al piloto que obtuvo más victorias durante la temporada, ya que el campeonato se define mediante la acumulación de puntos.
+- Los porcentajes permiten comparar temporadas con distinta cantidad de carreras, evitando que las diferencias en la extensión del calendario afecten la comparación.
+- Para construir la visualización, los porcentajes almacenados como texto fueron convertidos a valores numéricos mediante Python, sin alterar la base de datos original.

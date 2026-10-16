@@ -1,10 +1,8 @@
 # Cuando un punto cuesta una fortuna: la época dorada del derroche en la Fórmula 1
 
-![Visualización Eficiencia F1](vis_01.jpg)
-
 *Por Sergio Herrera*
 
-Hubo un tiempo en la máxima categoría del automovilismo mundial en el que ganar no solo dependía del talento de los pilotos o de la genialidad aerodinámica de los ingenieros, sino del grosor de la chequera. Entre 2015 y 2019, quise enfocar mi reportaje en cómo la Fórmula 1 transitó por su último gran periodo de libertad financiera absoluta, una ventana histórica conocida como la era del gasto libre, justo antes de que la irrupción global de la pandemia y la posterior llegada del límite presupuestario transformaran para siempre las reglas del juego.
+Hubo un tiempo en la máxima categoría del automovilismo mundial en el que ganar no solo dependía del talento de los pilotos o del equipo... El ganador se definia por el "ancho de su billetera". Entre 2015 y 2019, en la Fórmula 1 transitó por su último gran periodo la libertad financiera absoluta, una era histórica conocida como ladel gasto libre, justo antes de que la irrupción global de la pandemia y la posterior llegada del límite presupuestario transformaran para siempre las reglas de la pista.
 
 Al hacer memoria y analizar los datos de aquellos años, busqué exponer una auténtica carrera armamentista industrial. En el desglose global de este lustro, encontré una asimetría estructural feroz: gigantes corporativos como Mercedes, Ferrari y Red Bull operaron bajo una lógica de inversión ilimitada, inyectando cifras superiores a los 400 y 500 millones de dólares anuales por escudería. Mientras los monoplazas desfilaban luciendo patrocinios multimillonarios, en el fondo de la parrilla equipos independientes luchaban por la supervivencia financiera con apenas un tercio de esos recursos.
 

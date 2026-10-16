@@ -1,4 +1,5 @@
-# Documentación del Proceso de Visualización Atómica - Sergio Herrera
+# Documentación del Proceso de Visualización Atómica
+### Por Sergio Herrera
 
 ## Explicación del proceso y decisiones tomadas
 

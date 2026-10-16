@@ -1,1 +1,24 @@
+# README INDIVIDUAL- ENTREGA 3
+
+## Título de la visualización: campeón vs. subcampeón.
+
+### Sobre la visualización creada
+El objetivo de mi base de datos es evidenciar la diferencia de puntaje entre el equipo ganador y los demás que participaron de la Fórmula 1 cada año desde el 2000. 
+Teniendo eso en consideración, la visualización apela a algo similar: identificar si existe una real competitividad según la cantidad de puntaje que tiene el campeón en relación con el subcampeón. Por lo tanto, frente a una leve brecha, sí hay competencia real. Mientras que, cuando hay grandes diferencias, no existe. 
+En relación a la metodología utilizada, la visualización la realicé en Python y la librería Altair. A partir de esto, fui mostrando la brecha entre el primer y segundo lugar desde el 2000 a la actualidad. Es importante destacar que el código de la visualización fue creado con Inteligencia Artificial (Chat GPT) y posteriormente, ingresado a Google Collab para obtener la visualización compartida. 
+La decisión del enfoque de la visualización fue sencilla. Se seleccionaron a los equipos ganadores y subcampeones desde el 2000 al 2025 y a través de un gráfico de barras se fueron comparando los datos. Esta elección se debe a que permite, visualmente hablando, presentarlo de una manera más llamativa para identificar rápidamente qué es lo que ocurre. Por lo tanto, el foco no está en cuál equipo ganó (pese a que de todas formas al pulsar sobre el gráfico se menciona su nombre), sino en la diferencia de puntajes entre el primer y segundo lugar, que se menciona explícitamente al clickear las barras correspondientes a cada año. 
+Esta visualización colabora con nuestra hipótesis central que es “una mayor diversidad de ganadores en la Fórmula 1 no necesariamente implica una competencia más equilibrada…” Además, principalmente responde las siguientes preguntas de investigación:
+¿Qué tan grande es la distancia entre los líderes y el resto de la tabla?
+¿Qué relación existe entre la cantidad de ganadores y la diferencia de puntos entre los equipos líderes y el resto?
+
+
+### Ficha técnica de la base de datos
+En la presente base de datos, se muestra la información oficial de la Fórmula 1 desde el año 2000 hasta 2026. En este, se incluyen los pilotos y equipos ganadores con el puntaje que obtuvieron, y además, están todos los equipos que compitieron cada año con los puntos respectivos. 
+A través de estos datos, se identifican rápidamente los ganadores por año y la puntuación con la que ganaron. Estos datos son fácilmente comparables y sencillos de procesar para el lector.
+El año se refiere al resumen de la temporada, es decir, todas las carreras de ese período.
+El piloto ganador se refiere a la persona que manejaba el auto del equipo que logró el primer lugar.
+El equipo ganador es el que obtuvo el primer lugar.
+El puntaje son los datos numéricos que obtuvieron el equipo ganador en la temporada,
+Luego se presentan las posiciones de todos los equipos durante ese año y el puntaje obtenido.
+Es importante destacar que las fuentes utilizadas para la recolección de los datos son la página oficial de la F1 (https://www.formula1.com) y el github de Jolpica. 
 

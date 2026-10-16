@@ -9,4 +9,4 @@ Al hacer memoria y analizar los datos de aquellos años, se expone una asimetrí
 
 A copntinuación se puede revisar el comportamiento temporada a temporada (2015-2019). Revisando cómo La inversión récord de los líderes en las carreras traían consigo los puntos. Donde vemos que hubo escuderías que llegaron a gastar *más de un millón de dólares* por cada punto solitario sumado en el campeonato, desnmostrando que el dinero masivo no siempre les garantizaba el punto de una forma optima en cuanto a sus inversiones.
 
-Este modelo de competencia desregulada se convirtió en una bomba de tiempo. La brecha entre los tres grandes y el resto de la parrilla hizo insostenible la participación de los demás equipos, obligando a la categoría a poner fin a esta era con la nueva reglamentación de limite presupuestario por año.
+Este modelo de competencia desregulada se convirtió en una bomba de tiempo. La brecha entre los tres grandes y el resto de la parrilla hizo insostenible la participación de los demás equipos, obligando a la categoría a poner fin a esta era con la nueva reglamentación de limite presupuestario por año. 

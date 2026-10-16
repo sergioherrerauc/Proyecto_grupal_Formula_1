@@ -13,7 +13,7 @@ Con esta base de datos busqué recopilar y cruzar información financiera, estim
 - `Presupuesto_Millones_USD` (Numérico decimal): Estimación del gasto anual ejecutado por cada escudería, estructurado de forma ascendente para evidenciar la carrera armamentista financiera.
 - `Categoria_Equipo` (Texto): Clasificación cualitativa que creé para agrupar visualmente a las escuderías en tres bloques estratégicos: "Top 3", "Zona Media" y "Zona Baja".
 - `Puntos` (Entero): Unidades oficiales que se obtuvieron en campeonatos de la FIA.
-- `Costo_Por_Punto_Millones_USD` (Numérico decimal): Indicador de eficiencia que calculé dividiendo el presupuesto total entre los puntos logrados.
+- `Costo_Por_Punto_Millones_USD`: Indicador de eficiencia que calculé dividiendo el presupuesto total entre los puntos logrados.
 
 ## Observaciones metodológicas sobre los datos
 - Tratamiento de ausencias: Tomé la decisión de eliminar y no graficar a los equipos que no participaron en determinadas temporadas (como el caso de Haas en 2015 antes de su debut oficial). Hice esto con el fin de simplificar la visualización y evitar barras vacías o distorsiones en la lectura de la audiencia.

@@ -1,1 +1,11 @@
+# Cuando ganar no es competir: 25 años de brechas entre campeón y subcampeón en la F1
 
+Este gráfico no cuenta quién salió campeón. Cuenta si hubo campeonato. La barra roja es el campeón, la celeste el subcampeón. Y la distancia entre ambas es el único termómetro real de competitividad en la F1 desde el año 2000.
+
+La hipótesis es la que rompe el mito: que ganen varios pilotos distintos no significa que la F1 sea más pareja. Desde el 2000, las victorias se pueden repartir mientras el control del campeonato sigue en manos de dos o tres escuderías, favorecidas por una brecha técnica, deportiva y económica que este gráfico delata año a año.Si hay una brecha grande, no hubo competencia. Punto.
+
+Miremos. De 2000 a 2009 la brecha parece chica, pero es engañosa: todos puntúan poco, entre 80 y 150 puntos, por el viejo sistema. El pico de paridad real es 2007 y 2008: Raikkonen 110 vs Alonso 109 y Hamilton 98 vs Massa 97. Un punto de diferencia. Ahí sí hubo campeonato.
+
+Con el nuevo puntaje desde 2010, la vara cambia. Una brecha de menos de 30 puntos ya es final de infarto. Y una de más de 100 es dominio absoluto. En 2013, Vettel 397 vs Alonso 242: 155 puntos de brecha. ¿Hubo 8 ganadores ese año? Sí. ¿Hubo competencia por el título? No. Lo mismo en 2014-2015 con Hamilton-Rosberg: Mercedes deja a Williams a 200 puntos. Ganar una carrera no es competir el campeonato.
+
+El gráfico grita en 2023: 575 de Verstappen vs 285 de Pérez. 290 puntos de diferencia. La brecha más grande en 25 años. Es el año menos competitivo de la historia moderna, aunque Red Bull haya repartido victorias entre sus dos pilotos.Por eso el dato final importa tanto. 2024 y sobre todo 2025 marcan 423 vs 420: 3 puntos de brecha. Es la brecha más pequeña de la era de 400 puntos. Solo cuando esa distancia se cierra, la diversidad de ganadores deja de ser anecdótica y la competencia se vuelve real. El resto del tiempo, el gráfico muestra lo que la hipótesis sostiene: muchas victorias repartidas, pero el campeonato concentrado.

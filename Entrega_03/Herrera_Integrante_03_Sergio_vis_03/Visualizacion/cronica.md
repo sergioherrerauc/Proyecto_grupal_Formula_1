@@ -1,6 +1,7 @@
 # Cuando un punto cuesta una fortuna: la época dorada del derroche en la Fórmula 1
 
 *Por Sergio Herrera*
+![Visualización Eficiencia F1](vis_03.jpg)
 
 Hubo un tiempo en la máxima categoría del automovilismo mundial en el que ganar no solo dependía del talento de los pilotos o del equipo... El ganador se definia por el "ancho de su billetera". Entre 2015 y 2019, en la Fórmula 1 transitó por su último gran periodo la libertad financiera absoluta, una era histórica conocida como ladel gasto libre, justo antes de que la irrupción global de la pandemia y la posterior llegada del límite presupuestario transformaran para siempre las reglas de la pista.
 

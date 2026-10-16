@@ -1,29 +1,30 @@
 # Documentación del Proceso de Visualización Atómica - Sergio Herrera
 
 ## Explicación del Proceso y Decisiones Metodológicas Tomadas
+
 El desarrollo de esta visualización de datos no fue un proceso lineal, sino el resultado de múltiples iteraciones y decisiones críticas enfocadas en resolver un problema narrativo central: ¿cómo comunicar eficazmente una gran cantidad de variables complejas (escuderías, temporadas, presupuestos, puntos y eficiencia de costos) sin saturar al lector?
 
 ### 1. Descarte de alternativas gráficas y selección del formato final
-En las primeras etapas de exploración, se evaluaron diversas alternativas gráficas. Se consideraron diagramas de dispersión (*scatter plots*), los cuales fueron descartados porque la alta concentración de datos y la abismal diferencia económica entre los gigantes de la industria y la zona baja generaban una dispersión confusa y de difícil lectura. Asimismo, se analizaron gráficos circulares y barras apiladas estáticas, pero resultaron inútiles para comparar de forma limpia el comportamiento individual de la mayoría de los equipos participativos por año. 
+En las primeras etapas de exploración, se evaluaron diversas alternativas gráficas. Se consideraron diagramas de dispersión, los cuales fueron descartados porque la alta concentración de datos y la abismal diferencia económica entre los gigantes de la industria y la zona baja generaban una dispersión confusa y de difícil lectura. Asimismo, se analizaron gráficos circulares y barras apiladas estáticas, pero resultaron inútiles para comparar de forma limpia el comportamiento individual de la mayoría de los equipos participativos por año. 
 
-Tras evaluar estas limitaciones, se optó por un **gráfico de barras horizontales ordenadas por magnitud de presupuesto**, priorizando la jerarquía financiera de un solo vistazo y combinándola con las métricas clave de la investigación.
+Tras evaluar estas limitaciones, se optó por un gráfico de barras horizontales ordenadas por magnitud de presupuesto, priorizando la jerarquía financiera de un solo vistazo y combinándola con las métricas clave de la investigación.
 
 ### 2. Interactividad y estructura de visualización: Global y por Temporada
-Para resolver la complejidad temporal del lustro (2015–2019), se implementó un menú de selección interactivo que otorga dos niveles de lectura fundamentales:
-- **Vista Global Inicial:** Un recuento histórico global acumulado de los años analizados, diseñado como punto de partida para dimensionar el impacto financiero general de la era de gasto libre.
-- **Desglose Dinámico por Temporada:** Mediante el selector inferior, el usuario puede redirigirse y filtrar la información año a año (2015, 2016, 2017, 2018 y 2019), observando cómo fluctuaba la participación y el presupuesto de cada escudería en su contexto específico.
+Para resolver la complejidad temporal del lustro (2015-2019), se implementó un menú de selección interactivo que otorga dos niveles de lectura fundamentales:
+- Vista Global Inicial: Un recuento histórico global acumulado de los años analizados, diseñado como punto de partida para dimensionar el impacto financiero general de la era de gasto libre.
+- Desglose Dinámico por Temporada: Mediante el selector inferior, el usuario puede redirigirse y filtrar la información año a año (2015, 2016, 2017, 2018 y 2019), observando cómo fluctuaba la participación y el presupuesto de cada escudería en su contexto específico.
 
 ### 3. Codificación estética y cromática
-Una de las decisiones clave para guiar la lectura del público fue la asignación de colores por categorías ("Top 3", "Zona Media" y "Zona Baja"). Esto se hizo con la intención deliberada de que la audiencia pudiera **seguir con la mirada** la dominancia estructural de los equipos punteros frente a los independientes a lo largo de los años. Los colores contrastantes permiten percibir de inmediato quiénes manejaban el capital masivo y quiénes competían en bloques inferiores.
+Una de las decisiones clave para guiar la lectura del público fue la asignación de colores por categorías ("Top 3", "Zona Media" y "Zona Baja"). Esto se hizo con la intención deliberada de que la audiencia pudiera seguir con la mirada la dominancia estructural de los equipos punteros frente a los independientes a lo largo de los años. Los colores contrastantes permiten percibir de inmediato quiénes manejaban el capital masivo y quiénes competían en bloques inferiores.
 
 ### 4. Simplificación mediante Tooltips y soporte técnico
-Para evitar un exceso de texto estático que ensucie la interfaz visual, se optó por una interfaz limpia. Toda la información de soporte —como los puntos exactos obtenidos en el campeonato de la FIA y la métrica derivada del costo por punto— se integró de forma interactiva, de modo que **al pasar el cursor sobre cada barra se despliegue un desglose detallado**, facilitando una lectura ágil y orientada al periodismo de datos explicativo.
+Para evitar un exceso de texto estático que ensucie la interfaz visual, se optó por una interfaz limpia. Toda la información de soporte, como los puntos exactos obtenidos en el campeonato de la FIA y la métrica derivada del costo por punto, se integró de forma interactiva, de modo que al pasar el cursor sobre cada barra se despliegue un desglose detallado, facilitando una lectura ágil y orientada al periodismo de datos explicativo.
 
-> **Nota técnica:** Para la materialización de este desarrollo, en parte del código utilicé el apoyo de la inteligencia artificial de Gemini, con la cual logré esclarecer y perfeccionar la selección de la interfaz interactiva por años en Altair.
+> Nota técnica: Para la materialización de este desarrollo, en parte del código utilicé el apoyo de la inteligencia artificial de Gemini, con la cual logré esclarecer y perfeccionar la selección de la interfaz interactiva por años en Altair.
 
 ## Base de Datos Seleccionada y Procesamiento
-- **Archivo utilizado:** `database_limpia_F1_2015_2019.csv`
-- **Procesamiento:** Los datos financieros obtenidos de fuentes periodísticas especializadas se cruzaron con los registros oficiales de la FIA[cite: 1]. Se estandarizaron los nombres de las escuderías (agregando denominaciones históricas entre paréntesis ante cambios corporativos) y se eliminó la categoría "No Participó" para evitar ruido visual en las barras. El dataset se estructuró en formato largo para garantizar la replicabilidad técnica mediante la librería **Altair** de Python.
+- Archivo utilizado: database_limpia_F1_2015_2019.csv
+- Procesamiento: Los datos financieros obtenidos de fuentes periodísticas especializadas se cruzaron con los registros oficiales de la FIA. Se estandarizaron los nombres de las escuderías (agregando denominaciones históricas entre paréntesis ante cambios corporativos) y se eliminó la categoría "No Participó" para evitar ruido visual en las barras. El dataset se estructuró en formato largo para garantizar la replicabilidad técnica mediante la librería Altair de Python.
 
 ## Preguntas que Responde la Visualización
 1. ¿Cuál era la brecha real de inversión entre los equipos dominantes del "Top 3" frente al resto de la parrilla en el acumulado global de la era de gasto libre?

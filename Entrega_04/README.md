@@ -49,13 +49,13 @@ En definitiva, la identidad visual de F1: ¿Todos pueden ganar? busca establecer
 - **Uso de datos:** Se introduce formalmente la gran pregunta entre comillas, planteando el problema central de investigación: por qué se concentran las victorias y cuál es el desequilibrio financiero subyacente.
 
 ## 3. Secciones de Análisis Secundarias (Pasos 1, 2 y 3 con bases de datos del equipo)
-- **Paso 1 (El dominio en perspectiva):** Se integra el primer bloque visual enfocado en el análisis histórico global, apoyado por la primera base de datos (desarrollada por Antonia) sobre la diferencia de victorias entre temporadas, acompañada de un CTA que invita a explorar las métricas.
-- **Paso 2 (Ciclos de dominio):** Se incorpora el núcleo interactivo principal: el gráfico de barras horizontales desarrollado en Altair, complementado con la base de datos de Mariana sobre la concentración de victorias en las escuderías y sus respectivos periodos de dominio.
-- **Paso 3 (¿Por qué ocurre?):** Se despliegan tarjetas de contenido con iconos vectoriales y textos breves que explican los factores subyacentes, respaldados directamente por la base de datos adjunta (desarrollada por ti, Sergio), la cual analiza la influencia combinada de la tecnología, el reglamento y los recursos económicos.
+- **Paso 1 (El dominio en perspectiva):** Se integra el primer bloque visual enfocado en el análisis histórico global, apoyado por la primera base de datos desarrollada por Antonia, sobre la diferencia de victorias entre temporadas, acompañada de un CTA que invita a explorar las métricas.
+- **Paso 2 (Ciclos de dominio):** Se invita a la segunda parte sobre la concentración de victorias en las escuderías y sus respectivos periodos de dominio. Complementado con la base de datos de Mariana como visual. Replicando el llamado a leer más
+- **Paso 3 (¿Por qué ocurre?):**Explicación y conexión al paso económico, respaldados con la base de datos adjunta de Sergio, la cual analiza la influencia de la tecnología, el reglamento y los recursos económicos.
 
 ## 4. Respuesta Definitiva e Interacción Comunitaria (Affordance)
 - **Elementos visuales:** Se pasa a la sección de respuesta definitiva, incorporando un llamado a la acción con un botón destacado para "Leer conclusión completa", reforzado con elementos visuales como un banner de banderines de meta.
-- **Uso de datos e interactividad (Affordance):** En el cierre de la página, se implementa un bloque interactivo titulado "¿Y tú a qué escudería apoyas?", acompañado de los recursos visuales de los logotipos de las escuderías. Esto rompe la pasividad del lector, invitándolo a participar activamente votando por su equipo favorito dentro de la webstory antes de llegar al pie de página institucional y a las fuentes oficiales.
+- **Uso de datos e interactividad (Affordance):** En el cierre de la página, se implementa un bloque interactivo titulado "¿Y tú a qué escudería apoyas?", acompañado de los recursos visuales de los logotipos de las escuderías (como Mercedes). Buscando pasar de un lector pasivo a uno que sea participe, invitándolo activamente a votar por su equipo favorito dentro de la webstory, antes de llegar al pie de página final.
 
 ---
 

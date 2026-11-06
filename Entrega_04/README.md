@@ -63,7 +63,7 @@ En definitiva, la identidad visual de F1: ¿Todos pueden ganar? busca establecer
 
 Una mayor diversidad de ganadores en la Fórmula 1 no necesariamente implica una competencia más equilibrada: desde el año 2000, las victorias pueden repartirse entre varios pilotos mientras el control del campeonato continúa concentrado en pocas escuderías, favorecido por diferencias deportivas, técnicas y económicas que dificultan una distribución equilibrada de la competencia.
 
-# Preguntas de investigación
+## Preguntas de investigación
 
 * ¿Qué tan concentradas están las victorias entre pilotos y escuderías desde el año 2000?
 * ¿Existen temporadas con muchos ganadores distintos, pero con un dominio claro de una sola escudería?

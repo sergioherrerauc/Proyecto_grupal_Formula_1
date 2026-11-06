@@ -1,0 +1,51 @@
+Equipo,Año,Presupuesto_Millones_USD,Categoria_Equipo,Puntos,Costo_Por_Punto_Millones_USD
+Mercedes,2015,527.6,Top 3,703,0.75
+Ferrari,2015,474.7,Top 3,428,1.11
+Williams,2015,217.7,Zona Media,257,0.85
+Red Bull,2015,532.5,Top 3,187,2.85
+Aston Martin (Force India),2015,147.3,Zona Media,136,1.08
+Alpine (Lotus/Renault),2015,149.8,Zona Baja,78,1.92
+AlphaTauri (Toro Rosso),2015,156.1,Zona Baja,67,2.33
+Alfa Romeo (Sauber),2015,117.2,Zona Baja,36,3.26
+McLaren,2015,528.3,Top 3,27,19.57
+Haas,2015,0.0,No Participó,0,0.0
+Mercedes,2016,352.0,Top 3,765,0.46
+Red Bull,2016,286.2,Top 3,468,0.61
+Ferrari,2016,483.3,Top 3,398,1.21
+Aston Martin (Force India),2016,119.2,Zona Media,173,0.69
+Williams,2016,139.6,Zona Media,138,1.01
+McLaren,2016,246.4,Zona Media,76,3.24
+AlphaTauri (Toro Rosso),2016,132.8,Zona Baja,63,2.11
+Haas,2016,117.0,Zona Baja,29,4.03
+Alpine (Renault),2016,199.8,Zona Baja,8,24.98
+Alfa Romeo (Sauber),2016,126.0,Zona Baja,2,63.0
+Mercedes,2017,352.1,Top 3,668,0.53
+Ferrari,2017,295.3,Top 3,522,0.57
+Red Bull,2017,284.0,Top 3,368,0.77
+Aston Martin (Force India),2017,117.0,Zona Media,187,0.63
+Williams,2017,136.3,Zona Media,83,1.64
+Alpine (Renault),2017,195.4,Zona Media,57,3.43
+AlphaTauri (Toro Rosso),2017,130.6,Zona Baja,53,2.46
+Haas,2017,130.6,Zona Baja,47,2.78
+McLaren,2017,240.8,Zona Baja,30,8.03
+Alfa Romeo (Sauber),2017,123.8,Zona Baja,5,24.76
+Mercedes,2018,400.0,Top 3,655,0.61
+Ferrari,2018,410.0,Top 3,571,0.72
+Red Bull,2018,310.0,Top 3,419,0.74
+Alpine (Renault),2018,190.0,Zona Media,122,1.56
+Haas,2018,130.0,Zona Media,93,1.4
+McLaren,2018,220.0,Zona Media,62,3.55
+Aston Martin (Force India/Racing Point),2018,120.0,Zona Baja,52,2.31
+Alfa Romeo (Sauber),2018,135.0,Zona Baja,48,2.81
+AlphaTauri (Toro Rosso),2018,150.0,Zona Baja,33,4.55
+Williams,2018,150.0,Zona Baja,7,21.43
+Mercedes,2019,484.0,Top 3,739,0.65
+Ferrari,2019,463.0,Top 3,504,0.92
+Red Bull,2019,445.0,Top 3,417,1.07
+McLaren,2019,269.0,Zona Media,145,1.86
+Alpine (Renault),2019,272.0,Zona Media,91,2.99
+AlphaTauri (Toro Rosso),2019,138.0,Zona Media,85,1.62
+Aston Martin (Racing Point),2019,188.0,Zona Baja,73,2.58
+Alfa Romeo (Sauber),2019,132.0,Zona Baja,43,3.07
+Haas,2019,173.0,Zona Baja,28,6.18
+Williams,2019,141.0,Zona Baja,1,141.0

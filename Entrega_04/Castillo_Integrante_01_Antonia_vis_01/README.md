@@ -14,15 +14,15 @@ Al comparar estas temporadas, se observa que el dominio de los campeones no sigu
 
 Para analizar estos resultados se elaboró un gráfico de líneas que muestra el porcentaje de carreras ganadas por el campeón mundial de cada temporada entre 2016 y 2025. La visualización permite comparar los distintos años e identificar los momentos de mayor concentración de victorias, especialmente el dominio de Verstappen en 2023 y su caída en 2024.
 
-## Enlace a la página web
+# Enlace a la página web
 
 https://antobellen.github.io/cronica-formula-1/
 
-## Carpeta sitio web
+### Carpeta sitio web
 
 https://github.com/sergioherrerauc/Proyecto_grupal_Formula_1/tree/main/Entrega_04/Castillo_Integrante_01_Antonia_vis_01/sitio_web
 
-## Carpeta visualización
+### Carpeta visualización
 
 https://github.com/sergioherrerauc/Proyecto_grupal_Formula_1/tree/main/Entrega_04/Castillo_Integrante_01_Antonia_vis_01/visualizacion
 

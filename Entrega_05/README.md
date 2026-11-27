@@ -3,6 +3,7 @@
 
 ### Información del reportaje:
 **Titular:** *¿Todos pueden ganar?* 
+
 **Subtitulo:** *La concentración del éxito en la Fórmula 1*
 
 ### Resumen del reportaje:
@@ -15,6 +16,7 @@ Mediante datos históricos, realizamos un recorrido por los campeonatos ganados,
 A lo largo de nuestra investigación trabajamos con dos hipótesis. La primera fue planteada al inicio del proyecto, mientras que la segunda surgió cuando ya habíamos comenzado a trabajar con los datos y a identificar distintos patrones de competitividad.
 
 **Primera hipótesis:** “La concentración competitiva en la Fórmula 1 desde el año 2000 se ha estructurado en torno al dominio recurrente de un grupo reducido de escuderías, favorecido por diferencias deportivas, técnicas y económicas que dificultan una distribución equilibrada de la competencia”.
+
 **Segunda hipótesis:** “Una mayor diversidad de ganadores en la Fórmula 1 no necesariamente implica una competencia más equilibrada: desde el año 2000, las victorias pueden repartirse entre varios pilotos mientras el control del campeonato continúa concentrado en pocas escuderías, favorecido por diferencias deportivas, técnicas y económicas que dificultan una distribución equilibrada de la competencia”.
 
 **¿Cómo evolucionó la hipótesis a lo largo del trabajo?:** La primera hipótesis se centraba principalmente en identificar el dominio de ciertas escuderías y los factores que favorecen la concentración del éxito.

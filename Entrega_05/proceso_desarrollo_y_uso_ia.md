@@ -24,7 +24,15 @@ En términos generales, se buscaba que la página fuera intuitiva, atractiva y a
 
 ## Cambios realizados por el equipo sobre el código generado o sugerido (CHECHO).
 
-## Problemas encontrados, iteraciones y soluciones aplicadas (CHECHO Y ANTO).
+## Problemas encontrados, iteraciones y soluciones aplicadas
+
+Uno de los primeros desafíos, al menos para algunos integrantes del equipo, fue profundizar en los datos de un deporte que no conocíamos tanto y que tiene cierta complejidad. Esto dificultó en un inicio imaginar cómo sería nuestra página, qué contenido tendría y qué gráficos serían los más adecuados. Para solucionar esto, leímos bastante, vimos videos y nos fuimos adentrando cada vez más en el mundo de la Fórmula 1.
+
+Por otro lado, uno de los mayores desafíos fue aprender a trabajar con código y comprender algunos aspectos básicos de la programación. Para esto, intentamos definir previamente cómo queríamos que se viera y funcionara cada elemento, para luego traspasar nuestras ideas a la IA y apoyarnos en ella para la implementación del código, procurando mantener nuestro propio trabajo periodístico.
+
+Sin embargo, trabajar con IA fue más complicado de lo que imaginamos. Muchas veces ignoraba nuestras correcciones, incorporaba elementos que no habíamos solicitado o se alejaba de la idea inicial. Frente a esto, tuvimos que reiterar constantemente nuestra visión, ser más específicos con las instrucciones y pedirle que se ajustara a la información que le entregábamos.
+
+En general, lo más complicado fue llevar a la práctica aquello que teníamos en mente. Tanto en la creación de los gráficos como en la programación final de la página, hubo mucha prueba y error, tiempos de carga y varias versiones de un mismo elemento hasta conseguir un resultado que se acercara a lo que habíamos imaginado como equipo.
 
 ## Pruebas finales de contenido, cifras, fuentes, visualizaciones, interacción, lectura en dispositivos móviles y funcionamiento del código (CHECHO Y ANTO).
 

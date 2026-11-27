@@ -12,7 +12,7 @@ El propósito de nuestra historia era investigar qué tan competitiva ha sido la
 **¿De qué se trata la historia?:** La Fórmula 1 es la competición más prestigiosa del automovilismo internacional. Desde el año 2000, ha atravesado distintos cambios técnicos, reglamentarios, deportivos y financieros que han modificado las condiciones de competencia. Esto nos lleva a preguntarnos quiénes han ganado y qué tan distribuido ha estado realmente el éxito.
 Mediante datos históricos, realizamos un recorrido por los campeonatos ganados, la concentración de victorias, las brechas entre competidores y las diferencias económicas entre las escuderías. A través de las visualizaciones, los textos y la interactividad, buscamos que el usuario cuestione su percepción sobre la competitividad y descubra por sí mismo que tener distintos ganadores no siempre significa que exista una competencia equilibrada, pero que el dominio de ciertas escuderías tampoco impide que otros equipos y pilotos puedan ganar y sorprender.
 
-### Análisis de Hipótesis: ¿lograron demostrar su hipótesis inicial? ¿Cómo evolucionó a lo largo del trabajo?
+### Análisis de Hipótesis:
 A lo largo de nuestra investigación trabajamos con dos hipótesis. La primera fue planteada al inicio del proyecto, mientras que la segunda surgió cuando ya habíamos comenzado a trabajar con los datos y a identificar distintos patrones de competitividad.
 
 **Primera hipótesis:** “La concentración competitiva en la Fórmula 1 desde el año 2000 se ha estructurado en torno al dominio recurrente de un grupo reducido de escuderías, favorecido por diferencias deportivas, técnicas y económicas que dificultan una distribución equilibrada de la competencia”.

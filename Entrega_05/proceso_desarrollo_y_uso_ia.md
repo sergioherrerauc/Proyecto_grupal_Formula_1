@@ -34,7 +34,19 @@ Sin embargo, trabajar con IA fue más complicado de lo que imaginamos. Muchas ve
 
 En general, lo más complicado fue llevar a la práctica aquello que teníamos en mente. Tanto en la creación de los gráficos como en la programación final de la página, hubo mucha prueba y error, tiempos de carga y varias versiones de un mismo elemento hasta conseguir un resultado que se acercara a lo que habíamos imaginado como equipo.
 
-## Pruebas finales de contenido, cifras, fuentes, visualizaciones, interacción, lectura en dispositivos móviles y funcionamiento del código (CHECHO Y ANTO).
+
+## Pruebas finales de contenido, cifras, fuentes, visualizaciones, interacción, lectura en dispositivos móviles y funcionamiento del código.
+
+### Exportación del archivo
+En primer lugar, nos enfocamos en la creación y exportación del archivo HTML para poder visualizar nuestra página durante la presentación. Uno de los desafíos fue procurar que el código se trabajara en capas (HTML, CSS y JavaScript) que más adelante pudieran separarse, pero que en conjunto funcionaran correctamente.
+
+### Navegación de prueba
+Una vez que logramos descargar la primera versión de la página, comenzamos a recorrerla como si fuéramos los propios usuarios. Interactuamos con los gráficos, respondimos las preguntas de las trivias a partir de nuestros conocimientos e incluso probamos los juegos. Esto nos permitió evaluar tanto el funcionamiento de los elementos como la experiencia que queríamos generar en quienes visitaran nuestra webstory.
+
+### Reconocimiento de errores
+Durante estas primeras pruebas, nos dimos cuenta de que la IA había modificado algunos elementos que ya habíamos trabajado. Por ejemplo, nuestra primera visualización representaba los campeonatos ganados por cada escudería mediante copas, pero al integrarla en la página, esta había sido reemplazada por un gráfico de barras horizontales, perdiendo parte de la intención visual que habíamos definido anteriormente.
+
+A partir de estas observaciones, fuimos identificando y corrigiendo distintos errores mediante un proceso de prueba y error. Cada vez que obteníamos una nueva versión de la página, volvíamos a recorrerla y a revisar los cambios, procurando que los elementos funcionaran correctamente y que se respetaran nuestras decisiones gráficas y narrativas.
 
 
 ## Identificación de las decisiones que fueron tomadas directamente por los integrantes

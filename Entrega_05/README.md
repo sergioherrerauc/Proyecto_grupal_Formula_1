@@ -1,5 +1,5 @@
-# Descripción del proceso
-## Poryecto Fórmula 1
+# Descripción del nuestro proceso
+## Proyecto Fórmula 1
 
 ### Información del reportaje:
 **Titular:** *¿Todos pueden ganar?* 

@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>¿Todos Pueden Ganar? — Fórmula 1 en Números</title>
+  <meta name="description" content="Lo que esconden los campeonatos de la Fórmula 1. Webstory interactiva de periodismo de datos sobre la concentración del éxito y los presupuestos en la F1 (2000–2025)." />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <!-- Animación de Apertura (3.4s GPU translate3d) -->
+  <div id="intro-overlay" class="intro-overlay" aria-hidden="false">
+    <div id="intro-curtain" class="intro-curtain">
+      <div class="bg-telemetry-stripes" style="position:absolute;inset:0;opacity:0.6;pointer-events:none;"></div>
+      <div class="intro-curtain-edge" aria-hidden="true"></div>
+      <div class="intro-caption">
+        <p>Fórmula 1 en Números ///</p>
+        <h2>¿Todos pueden <span>ganar?</span></h2>
+      </div>
+    </div>
+    <div class="intro-car-runner" aria-hidden="true">
+      <div id="intro-car-slot"></div>
+      <div class="intro-tire-wakes">
+        <div class="intro-wake-side"></div>
+        <div class="intro-wake-center"></div>
+        <div class="intro-wake-side"></div>
+      </div>
+    </div>
+    <button type="button" id="intro-skip" class="intro-skip">Saltar intro</button>
+  </div>
+
+  <!-- Barra de progreso superior (4px #E21E20) -->
+  <div class="scroll-progress-track" aria-hidden="true">
+    <div id="scroll-progress-bar" class="scroll-progress-bar"></div>
+  </div>
+
+  <!-- Navegación Lateral (Telemetría) -->
+  <nav id="telemetry-nav" class="telemetry-nav" aria-label="Navegación de telemetría por secciones"></nav>
+
+  <main>
+    <!-- PARTE 1A: PORTADA -->
+    <section id="portada" class="hero">
+      <div class="hero-checkered bg-checkered-9" aria-hidden="true"></div>
+      <div class="hero-bg-wrap" aria-hidden="true">
+        <div class="hero-bg-inner">
+          <img src="assets/hero_f1_front.jpg" alt="Monoplaza rojo de Fórmula 1 visto de frente acelerando en pista" />
+        </div>
+      </div>
+
+      <div class="container hero-topbar">
+        <div class="hero-brand">
+          <span>Fórmula 1 en Números</span>
+          <span class="slashes" aria-hidden="true">///</span>
+        </div>
+        <svg viewBox="0 0 90 64" class="hero-crown" aria-hidden="true">
+          <path d="M12 48 L8 18 L28 34 L45 10 L62 34 L82 18 L76 48 Z" fill="none" stroke="#E21E20" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M11 55 Q45 52 77 55" fill="none" stroke="#E21E20" stroke-width="4" stroke-linecap="round" />
+          <circle cx="8" cy="15" r="3" fill="#E21E20" />
+          <circle cx="45" cy="7" r="3.5" fill="#E21E20" />
+          <circle cx="82" cy="15" r="3" fill="#E21E20" />
+        </svg>
+      </div>
+
+      <div class="container hero-main">
+        <h1 class="hero-title">
+          <span class="hero-title-line1">¿Todos pueden</span>
+          <span class="hero-title-ganar"><span>GANAR?</span></span>
+        </h1>
+        <p class="hero-subtitle">Lo que esconden los campeonatos de la Fórmula 1</p>
+        <div class="hero-meta tabular-nums">
+          <span>Periodismo de datos</span>
+          <span aria-hidden="true">·</span>
+          <span>Temporadas 2000–2025</span>
+          <span aria-hidden="true">·</span>
+          <span>4 bases oficiales analizadas</span>
+        </div>
+      </div>
+
+      <div class="container hero-footer">
+        <button type="button" id="btn-start" class="cta-start">
+          <span>Desliza para arrancar</span>
+          <span aria-hidden="true">↓</span>
+        </button>
+        <span class="hero-counter">26 temporadas · 534 Grandes Premios</span>
+      </div>
+    </section>
+
+    <!-- PARTE 1B: DINÁMICA INTERACTIVA "¿QUÉ TAN FAN ERES?" (FLIP-CARD 3D) -->
+    <section id="quiz-fan" class="section-block bg-telemetry-stripes reveal-on-scroll">
+      <div class="container" style="max-width:980px;">
+        <div class="quiz-header">
+          <div>
+            <p class="eyebrow">Calentamiento en la Grilla · 6 Preguntas</p>
+            <h2 class="section-title">
+              <span class="headline-red-block"><span>¿Qué tan fan eres?</span></span>
+              <span class="slashes" aria-hidden="true">///</span>
+            </h2>
+          </div>
+          <div id="quiz-status" class="quiz-status tabular-nums">
+            <span>Tarjeta <strong id="quiz-step-num">1</strong> / 6</span>
+            <span style="opacity:0.4;">|</span>
+            <span style="color:#E21E20;">Aciertos: <strong id="quiz-score-num">0</strong></span>
+          </div>
+        </div>
+
+        <div id="quiz-dots" class="quiz-dots" aria-hidden="true"></div>
+        <div id="quiz-stage"></div>
+      </div>
+    </section>
+
+    <!-- PARTE 2: INTRODUCCIÓN + GUÍA RÁPIDA DESPLEGABLE -->
+    <section id="guia-f1" class="section-block bg-telemetry-stripes reveal-on-scroll">
+      <div class="container">
+        <div class="two-col-collage">
+          <div>
+            <figure class="scrapbook-frame">
+              <div class="masking-tape tape-tl" aria-hidden="true"></div>
+              <div class="masking-tape tape-br" aria-hidden="true"></div>
+              <div class="photo-card">
+                <img src="assets/intro_cockpit_bw.jpg" alt="Piloto de Fórmula 1 dentro del cockpit en blanco y negro" />
+                <div class="photo-vignette" aria-hidden="true"></div>
+                <div class="hand-note-overlay" aria-hidden="true">
+                  <p class="font-handwritten">¿F1 = competencia<br />real?</p>
+                </div>
+              </div>
+              <figcaption class="photo-caption">
+                Archivo editorial · 20 pilotos comparten pista, pero no parten con la misma máquina.
+              </figcaption>
+            </figure>
+          </div>
+
+          <div>
+            <h2 class="section-title">
+              La F1, ¿es realmente una competencia
+              <span class="headline-red-block"><span>igualitaria?</span></span>
+              <span class="slashes" aria-hidden="true">///</span>
+            </h2>
+            <p class="section-copy">
+              Analizamos cómo se distribuyen las victorias en esta competencia, identificando si
+              existen condiciones reales de que todos los equipos ganen.
+            </p>
+          </div>
+        </div>
+
+        <div class="guide-box">
+          <button type="button" id="guide-trigger" class="guide-trigger" aria-expanded="false" aria-controls="guide-panel">
+            <span class="guide-trigger-left">
+              <span class="guide-tag">Principiantes</span>
+              <span class="guide-question">Guía rápida de F1 en 60 segundos</span>
+            </span>
+            <span class="guide-chevron" aria-hidden="true">▼</span>
+          </button>
+          <div id="guide-panel" class="guide-panel">
+            <article class="guide-card">
+              <span class="guide-card-num">01 · Dos Trofeos</span>
+              <h3>Pilotos vs. Constructores</h3>
+              <p>
+                En F1 hay dos títulos por año. El de <strong>Pilotos</strong> premia al corredor con más puntos;
+                el de <strong>Constructores</strong> premia a la escudería (fábrica) que suma los puntos de sus dos autos y define el reparto millonario de premios.
+              </p>
+            </article>
+            <article class="guide-card">
+              <span class="guide-card-num">02 · Regla de Puntos</span>
+              <h3>Sistema de Puntos</h3>
+              <p>
+                Puntúan los 10 primeros de cada carrera (<strong>25 pts al 1°</strong>, 18 al 2°, 15 al 3°... hasta 1 pt al 10°).
+                <em>(Nota: hasta 2009 el ganador recibía 10 puntos).</em>
+              </p>
+            </article>
+            <article class="guide-card">
+              <span class="guide-card-num">03 · Ingeniería</span>
+              <h3>El peso de la máquina</h3>
+              <p>
+                A diferencia de otros deportes, en la F1 el auto representa gran parte del rendimiento: aerodinámica,
+                motor e inversión tecnológica marcan diferencias estructurales durante años.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTE 3: GRÁFICO 1 — LÍDERES DEL CAMPEONATO (TROFEOS EXPANDIBLES 2000–2025) -->
+    <section id="constructores" class="section-block bg-telemetry-stripes reveal-on-scroll">
+      <div class="container">
+        <div style="max-width:740px;margin-bottom:34px;">
+          <p class="eyebrow" style="color:#E21E20;">Gráfico 01 · Mundial de Constructores (2000–2025)</p>
+          <h2 class="section-title">
+            Los líderes
+            <span class="headline-red-block"><span>del campeonato</span></span>
+            <span class="slashes" aria-hidden="true">///</span>
+          </h2>
+          <p class="section-copy">
+            En 26 temporadas, solo seis escuderías lograron coronarse campeonas del Mundial de Constructores.
+            Presiona cada equipo para revelar sus trofeos y confirmar cuánta concentración existe en la cima de la Fórmula 1.
+          </p>
+        </div>
+
+        <div class="trophies-panel">
+          <p class="trophies-help">Presiona una escudería para ver sus triunfos.</p>
+          <div id="teams-trophies" class="trophies-list"></div>
+          <button type="button" class="trophies-all-btn" id="btn-toggle-all-cups">Revelar todas las copas</button>
+        </div>
+
+        <div class="trophies-insight">
+          <strong class="tabular-nums">80,8 %</strong>
+          <span>De los campeonatos (2000–2025) se concentran en Mercedes, Ferrari y Red Bull.</span>
+        </div>
+        <p class="source-note">Fuente: elaboración propia (vis_00) · Mundial de Constructores FIA (2000–2025).</p>
+      </div>
+    </section>
+
+    <!-- PARTE 4: CÁPSULA ¿SABÍAS QUÉ? 01 -->
+    <section id="sabias-que-1" class="trivia-section">
+      <div class="ripped-paper">
+        <div class="container trivia-inner">
+          <div class="trivia-badge-wrap bg-checkered-bold"><div class="trivia-badge">¿SABÍAS QUÉ?</div></div>
+          <svg viewBox="0 0 64 64" class="trivia-icon" aria-hidden="true">
+            <path d="M18 12H8v11c0 9 5 14 14 14M46 12h10v11c0 9-5 14-14 14" fill="none" stroke="#B8860B" stroke-width="4" stroke-linecap="round"/>
+            <path d="M16 8h32v17c0 12-7 19-16 21v9h9v5H23v-5h9v-9c-9-2-16-9-16-21V8z" fill="#EAB308" stroke="#000" stroke-width="2.5"/>
+          </svg>
+          <div class="trivia-copy">
+            <p class="trivia-lead">
+              Ferrari es el único equipo que ha competido en todas las temporadas del Campeonato Mundial de Fórmula 1 desde su inicio en 1950.
+              <span class="slashes" aria-hidden="true">///</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTE 5: GRÁFICO 2 — UN CAMPEÓN INDISCUTIDO -->
+    <section id="porcentaje-victorias" class="section-block bg-telemetry-stripes reveal-on-scroll">
+      <div class="container two-col">
+        <div>
+          <p class="eyebrow">Gráfico 02 · Dominio por Temporada</p>
+          <h2 class="section-title">
+            Un campeón
+            <span class="headline-red-block"><span>indiscutido</span></span>
+          </h2>
+          <p class="section-copy">
+            En la última década, el piloto campeón ha llegado a concentrar hasta más del 86% de las
+            victorias de una misma temporada, demostrando el nivel de dominio absoluto que puede
+            alcanzar una escudería en la F1.
+          </p>
+          <div class="kpi-strip">
+            <span class="kpi-big tabular-nums">86,4 %</span>
+            <span class="kpi-desc">Récord de la década (2023): Max Verstappen ganó 19 de 22 carreras.</span>
+          </div>
+          <p class="slashes" style="font-size:20px;margin-top:14px;" aria-hidden="true">///</p>
+        </div>
+
+        <div class="chart-panel">
+          <div class="chart-header">
+            <div>
+              <h3 class="chart-title">% de Carreras Ganadas por el Campeón</h3>
+              <p class="chart-sub">Pico máximo destacado: MÁX. 86,4% - 2023 · Línea azul: 50%</p>
+            </div>
+            <div class="seg-group" role="group" aria-label="Rango de temporadas">
+              <button type="button" class="seg-btn is-active" data-c2-range="decade">2016–2025</button>
+              <button type="button" class="seg-btn" data-c2-range="all">2000–2025</button>
+            </div>
+          </div>
+
+          <div id="c2-svg-wrap" class="svg-chart-wrap"></div>
+
+          <div id="c2-readout" class="readout-box" aria-live="polite"></div>
+          <p class="source-note">Fuente: AntoniaCastillo_DataBase_Limpia.csv · Temporadas 2000–2025.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTE 6: CÁPSULA ¿SABÍAS QUÉ? 02 -->
+    <section id="sabias-que-2" class="trivia-section">
+      <div class="ripped-paper">
+        <div class="container trivia-inner">
+          <div class="trivia-badge-wrap bg-checkered-bold"><div class="trivia-badge">¿SABÍAS QUÉ?</div></div>
+          <svg viewBox="0 0 64 64" class="trivia-icon" aria-hidden="true">
+            <line x1="12" y1="56" x2="22" y2="10" stroke="#000" stroke-width="4" stroke-linecap="round"/>
+            <g transform="rotate(10 36 24)">
+              <rect x="20" y="10" width="34" height="22" fill="#FDFDFD" stroke="#000" stroke-width="2.5"/>
+              <rect x="20" y="10" width="8.5" height="7.3" fill="#000"/>
+              <rect x="37" y="10" width="8.5" height="7.3" fill="#000"/>
+              <rect x="28.5" y="17.3" width="8.5" height="7.3" fill="#000"/>
+              <rect x="45.5" y="17.3" width="8.5" height="7.3" fill="#000"/>
+              <rect x="20" y="24.6" width="8.5" height="7.3" fill="#000"/>
+              <rect x="37" y="24.6" width="8.5" height="7.3" fill="#000"/>
+            </g>
+          </svg>
+          <div class="trivia-copy">
+            <p class="trivia-lead">
+              En 2023, el neerlandés Max Verstappen ganó el 86,4% de las carreras de la temporada, es decir, 19 de 22 Grandes Premios.
+              <span class="slashes" aria-hidden="true">///</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTE 7: GRÁFICO 3 — ¿HAY POSIBILIDADES DE GANAR? (1° VS 2° LUGAR) -->
+    <section id="primero-vs-segundo" class="section-block bg-telemetry-stripes reveal-on-scroll">
+      <div class="container two-col">
+        <div>
+          <p class="eyebrow">Gráfico 03 · Margen del Título</p>
+          <h2 class="section-title">
+            ¿Hay posibilidades de
+            <span class="headline-red-block"><span>ganar?</span></span>
+          </h2>
+          <p class="section-copy">
+            Analizamos la diferencia de puntajes entre el ganador y el segundo lugar por año, la
+            cual suele ser muy grande. Esto refuerza que ganar no es una posibilidad para todos.
+          </p>
+          <p class="slashes" style="font-size:20px;margin-top:20px;" aria-hidden="true">///</p>
+        </div>
+
+        <div class="chart-panel">
+          <div class="chart-header">
+            <div>
+              <h3 class="chart-title">Puntos del 1° y 2° Lugar (2000–2025)</h3>
+              <p class="chart-sub">Rojo: 1° Campeón · Gris claro: 2° Subcampeón</p>
+            </div>
+            <div class="seg-group" role="group" aria-label="Filtrar temporadas">
+              <button type="button" class="seg-btn is-active" data-c3-filter="all">Todos (26)</button>
+              <button type="button" class="seg-btn" data-c3-filter="close">Finales cerrados</button>
+              <button type="button" class="seg-btn" data-c3-filter="blowout">Mayores palizas</button>
+            </div>
+          </div>
+
+          <div id="c3-svg-wrap" class="svg-chart-wrap"></div>
+
+          <div id="c3-readout" class="readout-box" aria-live="polite"></div>
+          <p class="source-note">Fuente: DataBase_limpia_MarianaGajardo.csv · Temporadas 2000–2025.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTE 8: CÁPSULA ¿SABÍAS QUÉ? 03 -->
+    <section id="sabias-que-3" class="trivia-section">
+      <div class="ripped-paper">
+        <div class="container trivia-inner">
+          <div class="trivia-badge-wrap bg-checkered-bold"><div class="trivia-badge">¿SABÍAS QUÉ?</div></div>
+          <svg viewBox="0 0 64 64" class="trivia-icon" aria-hidden="true">
+            <path d="M12 36 C12 20, 24 10, 40 12 C52 14, 56 26, 54 38 L52 48 C52 50, 48 52, 42 52 L18 52 C14 52, 12 48, 12 42 Z" fill="#E21E20" stroke="#000" stroke-width="2.5"/>
+            <path d="M28 24 L53 26 L52 36 L30 35 Z" fill="#111" stroke="#000" stroke-width="2"/>
+            <path d="M16 40 L48 42" stroke="#FDFDFD" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+          <div class="trivia-copy">
+            <p class="trivia-lead">
+              En 2023, Verstappen alcanzó 575 puntos y le sacó 290 puntos de ventaja a su inmediato perseguidor (Sergio Pérez, con 285), una diferencia equivalente a más de 11 victorias.
+              <span class="slashes" aria-hidden="true">///</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTE 9: GRÁFICO 4 — ¿POR QUÉ ALGUNOS SÍ Y OTROS NO? -->
+    <section id="presupuestos" class="section-block bg-telemetry-stripes reveal-on-scroll">
+      <div class="container two-col">
+        <div>
+          <p class="eyebrow">Gráfico 04 · Desigualdad Financiera</p>
+          <h2 class="section-title">
+            ¿Por qué algunos sí
+            <span class="headline-red-block"><span>y otros no?</span></span>
+          </h2>
+          <p class="section-copy">
+            Cada marca cuenta con un presupuesto anual distinto, lo que sin duda marca la diferencia
+            en su rendimiento. Coincide que aquellas con mayor inversión logran más y mejores
+            recursos técnicos, lo que se traduce en victorias que no son alcanzables para el resto.
+          </p>
+          <p class="slashes" style="font-size:20px;margin-top:20px;" aria-hidden="true">///</p>
+        </div>
+
+        <div class="chart-panel">
+          <div class="chart-header">
+            <div>
+              <h3 id="c4-title" class="chart-title">Presupuesto Anual Estimado (2019)</h3>
+              <p id="c4-subtitle" class="chart-sub">Millones de dólares estadounidenses (USD M)</p>
+            </div>
+            <div class="seg-group" role="group" aria-label="Alternar métrica financiera">
+              <button type="button" class="seg-btn is-active" data-c4-metric="budget">Presupuesto (USD M)</button>
+              <button type="button" class="seg-btn" data-c4-metric="costPerPoint">Costo por Punto</button>
+            </div>
+          </div>
+
+          <div id="c4-years" class="year-bar" role="group" aria-label="Selector de año 2015–2019"></div>
+          <div id="c4-bars" class="hbar-list"></div>
+          <div id="c4-readout" class="readout-box" aria-live="polite"></div>
+          <p class="source-note">Fuente: database_limpia_F1_2015_2019_checho.csv · Era previa al límite presupuestario.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTE 10: CONCLUSIÓN EDITORIAL -->
+    <section id="conclusion" class="section-block reveal-on-scroll" style="overflow:hidden;">
+      <div class="hero-checkered bg-checkered-9" aria-hidden="true"></div>
+      <div class="container two-col-collage" style="position:relative;z-index:10;">
+        <div>
+          <figure class="scrapbook-frame tilt-right">
+            <div class="masking-tape tape-tl" aria-hidden="true"></div>
+            <div class="masking-tape tape-br" aria-hidden="true"></div>
+            <div class="photo-card">
+              <img src="assets/conclusion_vintage_f1_bw.jpg" alt="Fotografía histórica en blanco y negro de un monoplaza clásico de Fórmula 1" />
+              <div class="pasted-note">
+                <div class="masking-tape tape-top-center" aria-hidden="true"></div>
+                <p class="font-handwritten">F1 ≠ mismas<br />condiciones</p>
+              </div>
+            </div>
+            <figcaption class="photo-caption">
+              Archivo histórico · Las diferencias económicas y técnicas construyen jerarquías difíciles de romper.
+            </figcaption>
+          </figure>
+        </div>
+
+        <div>
+          <div style="display:flex;align-items:center;gap:12px;margin-bottom:18px;">
+            <span class="headline-red-block" style="margin:0;padding:6px 16px;font-weight:900;font-style:italic;text-transform:uppercase;">
+              <span>Conclusión</span>
+            </span>
+            <span class="slashes" style="font-size:20px;" aria-hidden="true">///</span>
+          </div>
+          <h2 class="section-title">
+            No, no todos
+            <span class="headline-red-block"><span>pueden ganar.</span></span>
+          </h2>
+          <p class="section-copy">
+            La diferencia de condiciones de cada escudería condiciona las posibilidades de liderar
+            la competencia. Aunque compitan en la misma pista, año tras año se repite un patrón: el
+            éxito en la F1 depende en gran medida de su condición económica y estructural.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTE 11: SELECTOR INTERACTIVO DE ESCUDERÍAS -->
+    <section id="tu-escuderia" class="section-block bg-telemetry-stripes reveal-on-scroll">
+      <div class="container">
+        <h2 class="section-title">
+          Y tú, ¿a qué
+          <span class="headline-red-block"><span>escudería apoyas?</span></span>
+          <span class="slashes" aria-hidden="true">///</span>
+        </h2>
+        <p class="section-copy" style="max-width:680px;">
+          Ya viste los números y la desigualdad en la pista. Ahora elige tu lado en la parrilla y súmate a su hinchada:
+        </p>
+
+        <div id="fan-grid" class="team-grid"></div>
+        <div id="fan-confirmed" style="display:none;"></div>
+      </div>
+    </section>
+
+    <!-- CIERRE INTERACTIVO: SIMULADOR REAL DE REFLEJOS EN LARGADA F1 -->
+    <section id="semaforo-final" class="lights-section">
+      <div class="container lights-inner">
+        <div class="lights-wave bg-checkered-bold" aria-hidden="true"></div>
+        <p class="eyebrow" style="margin-bottom:8px;">Simulador de Largada FIA <span class="slashes">///</span></p>
+        <h2 class="section-title" style="max-width:860px;margin:0 auto;">
+          ¿QUIERES PONERTE A PRUEBA SI FUESES UN
+          <span class="headline-red-block"><span>CORREDOR DE LA FÓRMULA 1?</span></span>
+        </h2>
+        <p class="section-copy" style="max-width:720px;margin:18px auto 0;">
+          Acá puedes realizarlo. En una largada real, los pilotos reaccionan en apenas 200 milisegundos
+          cuando las luces cambian. Presiona el botón para iniciar, espera a que se enciendan las 5 luces
+          rojas y detén el cronómetro lo más rápido posible apenas cambien a verde.
+        </p>
+
+        <div class="reaction-panel">
+          <div id="gantry-lights" class="gantry-box" aria-label="Semáforo de salida Fórmula 1 de 5 columnas"></div>
+
+          <div class="reaction-clock-wrap">
+            <div id="reaction-clock" class="reaction-clock tabular-nums">0.000 s</div>
+            <p id="reaction-substatus" class="reaction-substatus">Listo en la grilla de salida</p>
+          </div>
+
+          <div class="reaction-actions">
+            <button type="button" id="btn-reaction-action" class="btn-reaction-action is-idle">
+              INICIAR SECUENCIA DE LARGADA
+            </button>
+          </div>
+
+          <div id="reaction-feedback" class="reaction-feedback" style="display:none;" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- BLOQUE 12: FOOTER EDITORIAL Y METODOLOGÍA -->
+  <footer id="footer" class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <p class="eyebrow">Fórmula 1 en Números <span class="slashes">///</span></p>
+          <h3 style="margin:0;font-size:24px;font-weight:900;text-transform:uppercase;">
+            ¿Todos pueden <span style="background:#E21E20;padding:0 6px;">ganar?</span>
+          </h3>
+          <p class="section-copy" style="font-size:14px;">
+            Proyecto Narración Gráfica de No Ficción sobre la concentración del éxito y la desigualdad financiera en la Fórmula 1 (2000–2025).
+          </p>
+        </div>
+        <div>
+          <h4 style="margin:0;font-size:12px;font-weight:900;text-transform:uppercase;letter-spacing:0.18em;">
+            Metodología y Bases de Datos (2000–2025)
+          </h4>
+          <ul class="footer-list">
+            <li><strong>Constructores (vis_00):</strong> Campeonatos mundiales 2000–2025 e historial FIA 1958–2025.</li>
+            <li><strong>% de Victorias (AntoniaCastillo_DataBase_Limpia.csv):</strong> Carreras ganadas por el campeón por temporada.</li>
+            <li><strong>1° vs 2° Lugar (DataBase_limpia_MarianaGajardo.csv):</strong> Puntos y brecha entre campeón y subcampeón.</li>
+            <li><strong>Presupuestos (database_limpia_F1_2015_2019_checho.csv):</strong> Gasto anual (USD M) y costo por punto FIA (2015–2019).</li>
+          </ul>
+          <p class="source-note">Fuentes oficiales: FIA · Formula 1 · Jolpica / Ergast Developer API.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="source-note" style="margin:0;">Narración Gráfica de No Ficción · Webstory F1 (2000–2025)</span>
+        <button type="button" id="btn-top" class="pit-up-wrap bg-checkered-bold">
+          <span class="pit-up-btn">Volver a la línea de partida ↑</span>
+        </button>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

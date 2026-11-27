@@ -1,4 +1,4 @@
-# Descripción del nuestro proceso
+# Descripción de nuestro proceso
 ## Proyecto Fórmula 1
 
 ### Información del reportaje:

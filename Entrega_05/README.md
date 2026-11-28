@@ -27,8 +27,18 @@ A su vez, encontramos temporadas que rompen con los patrones de dominio habitual
 
 ### Tabla de autoría:
 
-| Elemento | Integrante 1 | Integrante 2 | Integrante 3 |
-|:---------|:-------------|:-------------|:-------------|
-| A        |              |              |              |
-| B        |              |              |              |
-| C        |              |              |              |
+### Tabla de autoría
+
+| **Elemento** | **Antonia Castillo** | **Mariana Gajardo** | **Sergio Herrera** |
+|---|---|---|---|
+| **README general** | Elaboración del README. | — | — |
+| **Visualizaciones** | Creación de los gráficos 00 y 01. | Creación del gráfico 02. | Creación del gráfico 03. |
+| **Análisis de visualizaciones** | Análisis de los gráficos 00 y 01. | Análisis general de las visualizaciones y del gráfico 02. | Análisis del gráfico 03. |
+| **Bases de datos y fichas técnicas** | Elaboración y entrega de sus archivos correspondientes. | Elaboración de sus archivos correspondientes. | Elaboración y entrega de sus archivos correspondientes. |
+| **Diseño de la webstory** | Elaboración del wireframe y propuesta estética de la página. | Elaboración del análisis completo de diseño. | Implementación del diseño en la página web. |
+| **Contenido y narrativa** | Propuesta de diseño y recorrido del usuario. | Edición del contenido periodístico y sugerencias sobre la narrativa web. | Implementación del contenido y la estructura narrativa. |
+| **Documentación del proceso y uso de IA** | Identificación de decisiones del equipo, problemas encontrados, soluciones aplicadas y pruebas realizadas. | Especificación comunicativa y funcional de la webstory. Relación entre hipótesis, datos, visualizaciones, textos, wireframe e implementación. | Registro de encargos realizados a la IA y cambios aplicados al código generado. |
+| **Programación de la webstory** | Sugerencias y correcciones visuales y de interactividad. | Sugerencias y correcciones de contenido y narrativa. | Programación mediante vibe coding y comunicación con las herramientas de IA. |
+| **Pruebas de funcionamiento** | Revisión visual y de interactividad. | — | Revisión visual, técnica y de interactividad. |
+| **Recursos visuales** | Búsqueda y recopilación de recursos. | — | Búsqueda, recopilación y subida de recursos. |
+| **Organización del repositorio** | Subida del README, archivos de sus visualizaciones y documentación de diseño. | — | Subida de sus archivos de visualización, los de Mariana y los recursos de la página. |

@@ -6,6 +6,7 @@ Las visualizaciones buscan demostrar que, aunque la Fórmula 1 es una competenci
 Para construir esta historia, las visualizaciones abordan la concentración del éxito deportivo, el dominio de los pilotos y las escuderías durante una temporada, las diferencias en los resultados deportivos y la desigualdad económica. En conjunto, estas visualizaciones construyen una narración que va desde mostrar quiénes dominan la competencia hasta explorar por qué ocurre esa desigualdad. No buscamos únicamente presentar cifras o comparar resultados, sino utilizar los datos para cuestionar la idea de que todos los equipos parten desde las mismas condiciones.
 
 **Mensaje:**
+
 El mensaje central que queremos comunicar es que la Fórmula 1 no es una competencia completamente igualitaria: aunque todos los pilotos compiten en la misma pista, las diferencias económicas, tecnológicas y estructurales influyen en sus posibilidades de ganar. Por eso, tener muchos participantes o distintos ganadores no significa necesariamente que todos tengan las mismas oportunidades de alcanzar el éxito.
 
 ## Análisis específico

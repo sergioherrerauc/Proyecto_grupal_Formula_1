@@ -16,6 +16,8 @@ La escritura del reportaje se desarrolló de manera progresiva, comenzando con l
 
 En cuanto al diseño, optamos por una estética inspirada en la identidad visual de la Fórmula 1, utilizando principalmente negro, rojo, azul y blanco. Incorporamos fotografías, referencias a las banderas a cuadros, elementos gráficos de telemetría y otros recursos visuales asociados a las carreras. Con esto, buscamos transmitir parte de la emoción del deporte, sin perder la seriedad de nuestra investigación.
 
+El wireframe nos permitió reunir en una misma estructura lo que hasta ese momento habíamos trabajado por separado. El orden de las visualizaciones respondió a nuestra hipótesis: partir mostrando quiénes han ganado, para luego profundizar en cómo lo han hecho, qué tan lejos han estado sus competidores y qué papel cumplen los recursos económicos. A partir de esto, definimos dónde ubicar los textos, los gráficos y las interacciones. Esta organización sirvió como referencia al momento de programar la página, aunque algunas decisiones fueron cambiando durante su implementación.
+
 Finalmente, la webstory se implementó en HTML, CSS y JavaScript, incorporando animaciones, gráficos dinámicos, botones y elementos interactivos. Durante este proceso fuimos revisando y modificando distintos elementos para que el funcionamiento de la página fuera coherente con las decisiones narrativas y visuales que habíamos tomado anteriormente.
 
 

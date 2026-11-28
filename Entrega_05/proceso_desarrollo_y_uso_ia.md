@@ -46,7 +46,21 @@ En general, buscábamos que la página fuera intuitiva, atractiva y accesible ta
 
 ## Registro de los principales encargos realizados a herramientas de IA o vibecoding, si fueron utilizadas para implementar la web (CHECHO).
 
-## Cambios realizados por el equipo sobre el código generado o sugerido (CHECHO).
+## Cambios realizados por el equipo sobre el código generado o sugerido.
+
+La intervención del equipo en el código producido por la IA fue constante durante todo el proceso de desarrollo.
+
+**Depuración de datos y textos innecesarios**
+
+Hacia la etapa final de la entrega, realizamos una limpieza del código para eliminar datos redundantes, etiquetas internas y textos de relleno que la IA agregaba por defecto y que entorpecían la lectura del reportaje.
+
+**Incorporación de las visualizaciones previas**
+
+El gráfico interactivo de las copas (Gráfico 1) no fue interpretado correctamente en las primeras versiones de la página. Para solucionar esto, incorporamos directamente su código HTML original, entregando instrucciones explícitas a la IA para que respetara su estructura y funcionamiento al integrarlo en la webstory.
+
+**Herramientas temporales de revisión grupal**
+
+Para facilitar la revisión entre los integrantes del equipo mientras realizábamos correcciones, incorporamos temporalmente dos herramientas en el pie de página: un botón de descarga directa del archivo HTML actualizado y un generador automático de archivos ZIP con todos los recursos necesarios para ejecutar la página de manera local.
 
 ## Problemas encontrados, iteraciones y soluciones aplicadas
 

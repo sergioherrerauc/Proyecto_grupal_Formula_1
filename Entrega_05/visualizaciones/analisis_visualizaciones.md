@@ -11,7 +11,7 @@ El mensaje central que queremos comunicar es que la Fórmula 1 no es una compete
 
 ## Análisis específico
 
-### Visualización 00: Los líderes del campeonato
+### Visualización 00: "La cima de la F1 es de seis escuderias"
 
 **Dimensiones y mensaje:** Esta visualización aborda la concentración del éxito en la Fórmula 1 a partir de tres dimensiones: las escuderías campeonas, la cantidad de campeonatos obtenidos y los años en que fueron ganados, entre 2000 y 2025. Buscamos comunicar que, a pesar de la cantidad de equipos que han participado en la competición, solo seis han logrado coronarse campeones en estas 26 temporadas. Incluso dentro de este reducido grupo existe una concentración del éxito, ya que Mercedes, Ferrari y Red Bull reúnen el 80,8% de los títulos.
 
@@ -19,7 +19,7 @@ El mensaje central que queremos comunicar es que la Fórmula 1 no es una compete
 
 **Relación con la historia:** Al ser la primera visualización de nuestra webstory, su propósito es introducir la problemática central del reportaje de una manera sencilla y llamativa. Buscamos entregar una primera evidencia de nuestra hipótesis sobre la concentración del éxito y generar en el usuario la inquietud de qué tan accesible es realmente alcanzar la cima de la Fórmula 1, dando paso a las siguientes visualizaciones, que profundizan en otras dimensiones de la competitividad.
 
-### Visualización 01: Un campeón indiscutido
+### Visualización 01: "Un campeón indiscutido"
 
 **Dimensiones y mensaje:** Esta visualización aborda la concentración de victorias a partir de tres dimensiones: la temporada, el piloto campeón y el porcentaje de carreras que este ganó durante el año. Lo que buscamos comunicar es que no todos los campeones llegan a la cima de la misma manera. Mientras algunos consiguen el título en temporadas más disputadas, otros logran dominar gran parte de las carreras, como ocurrió en 2023, cuando Max Verstappen ganó 19 de las 22 carreras disputadas.
 
@@ -27,7 +27,7 @@ El mensaje central que queremos comunicar es que la Fórmula 1 no es una compete
 
 **Relación con la historia:** Luego de mostrar quiénes han conseguido llegar a la cima de la Fórmula 1, quisimos profundizar en cómo lo han hecho. Esta visualización permite observar que el nivel de dominio de los campeones no ha sido siempre el mismo y que existen temporadas que rompen con los patrones de otras. Con esto, buscamos que el usuario comience a cuestionar qué hace que una temporada sea realmente competitiva, más allá de quién termina ganando el campeonato.
 
-### Visualización 02: Puntos del 1° y 2° Lugar
+### Visualización 02: "Puntos del 1° y 2° Lugar"
 
 **Dimensiones y mensaje**
 
@@ -41,7 +41,7 @@ Decidimos utilizar un gráfico de barras porque nos permite apreciar de manera m
 
 Hasta este punto del reportaje, ya hemos visto quiénes han conseguido ganar y qué tan dominantes han sido algunos campeones. Ahora nos interesa mirar la competencia desde el otro lado: ¿qué tan cerca estuvieron los demás de ganar? Con esto, buscamos reforzar la idea de que no todas las temporadas presentan el mismo nivel de competitividad y que, en ocasiones, ni siquiera el segundo mejor piloto del campeonato logra acercarse a la cima.
 
-### Visualización 03: ¿Por qué algunos sí y otros no? (El factor económico)
+### Visualización 03: "¿Por qué algunos sí y otros no?"
 
 **Dimensiones y mensaje:** 
 Esta visualización realiza una tasación matemática sobre cuánto gastaron realmente las escuderías y cuánto les costó cada punto obtenido en el Campeonato Mundial de Constructores durante el último periodo sin límite presupuestario (2015–2019), diferenciando los equipos según su estrato competitivo: Top 3, Zona Media y Zona Baja. Buscamos comunicar que el rendimiento en pista estuvo históricamente condicionado por la asimetría financiera —donde gigantes como Mercedes, Ferrari y Red Bull destinaban entre 400 y 532 millones de dólares anuales frente a escuderías que operaban con un tercio de esos recursos— y que invertir fortunas no siempre garantizaba eficiencia. De hecho, se evidencia que algunas escuderías sostenían gastos multimillonarios por posicionamiento y marketing sin lograr traducirlos en puntos, llegando a extremos como Williams en 2019 ($141 millones por un solo punto) o McLaren en 2015 ($528,3 millones para sumar 27 unidades).

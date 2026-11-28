@@ -1,0 +1,594 @@
+Año ,Equipo,Posición ,Puntaje ,¿Ganó?
+2000,Ferrari,1,108,Sí
+2000,Mercedes,2,89,No
+2000,Mercedes,3,73,No
+2000,Ferrari,4,62,No
+2000,BMW,5,24,No
+2000,Benetton,6,18,No
+2000,Honda,7,17,No
+2000,BMW,8,12,No
+2000,Jordan Honda,9,11,No
+2000,Jordan Honda,10,6,No
+2000,Petronas,11,6,No
+2000,Supertec,12,5,No
+2000,Cosworth,13,4,No
+2000,Honda,14,3,No
+2000,Benetton,15,2,No
+2000,Supertec,16,2,No
+2000,Petronas,17,0,No
+2000,Cosworth,18,0,No
+2000,Minard,19,0,No
+2000,Minardi,20,0,No
+2000,Peugeot,21,0,No
+2000,Peugeot,22,0,No
+2000,Peugeot,23,0,No
+2001,Ferrari,1,123,Sí
+2001,Mercedes,2,65,No
+2001,Ferrari,3,56,No
+2001,BMW,4,49,No
+2001,Mercedes,5,37,No
+2001,BMW,6,31,No
+2001,Honda,7,12,No
+2001,Petronas,8,12,No
+2001,Honda,9,12,No
+2001,Petronas,10,12,No
+2001,Honda,11,12,No
+2001,Petronas,12,9,No
+2001,Renault,13,8,No
+2001,Cosworth,14,6,No
+2001,Acer,15,6,No
+2001,Honda,16,5,No
+2001,Honda,17,5,No
+2001,Cosworth,18,3,No
+2001,Renault,19,2,No
+2001,Arrows,20,1,No
+2002,Ferrari,1,144,Sí
+2002,Ferrari,2,77,No
+2002,BMW,3,50,No
+2002,BMW,4,42,No
+2002,Mercedes,5,41,No
+2002,Mercedes,6,24,No
+2002,Renault,7,14,No
+2002,Renault,8,9,No
+2002,Cosworth,9,8,No
+2002,Petronas,10,7,No
+2002,Honda,11,7,No
+2002,Honda,12,4,No
+2002,Petronas,13,4,No
+2002,Honda,14,3,No
+2002,Honda,15,2,No
+2002,Asiatech,16,2,No
+2002,Toyota,17,2,No
+2002,Asiatech,18,0,No
+2002,Cosworth,19,0,No
+2002,Cosworth,20,0,No
+2003,Ferrari,1,93,Sí
+2003,Mercedes,2,91,No
+2003,BMW,3,82,No
+2003,Ferrari,4,65,No
+2003,BMW,5,58,No
+2003,Renault,6,55,No
+2003,Mercedes,7,51,No
+2003,Renault,8,33,No
+2003,Honda,9,17,No
+2003,Cosworth,10,17,No
+2003,Petronas,11,13,No
+2003,Ford,12,12,No
+2003,Toyota,13,10,No
+2003,Petronas,14,6,No
+2003,Toyota,15,6,No
+2003,Honda,16,6,No
+2003,BMW,17,4,No
+2003,Honda,18,3,No
+2003,Ford,19,1,No
+2003,Cosworth,20,1,No
+2003,Cosworth,21,0,No
+2003,Cosworth,22,0,No
+2003,Cosworth,23,0,No
+2004,Ferrari,1,148,Sí
+2004,Ferrari,2,114,No
+2004,Honda,3,85,No
+2004,Renault,4,59,No
+2004,BMW,5,58,No
+2004,Toyota,6,46,No
+2004,Mercedes,7,45,No
+2004,Honda,8,34,No
+2004,BMW,9,24,No
+2004,Mercedes,10,24,No
+2004,Petronas,11,22,No
+2004,Petronas,12,12,No
+2004,Cosworth,13,7,No
+2004,Toyota,14,6,No
+2004,BMW,15,6,No
+2004,Cosworth,16,3,No
+2004,Toyota,17,3,No
+2004,Ford,18,3,No
+2004,Ford,19,2,No
+2004,Cosworth,20,1,No
+2004,Renault,21,0,No
+2004,Toyota,22,0,No
+2004,BMW,23,0,No
+2005,Renault,1,133,Sí
+2005,Mercedes,2,112,No
+2005,Ferrari,3,62,No
+2005,Mercedes,4,60,No
+2005,Renault,5,58,No
+2005,Toyota,6,45,No
+2005,Toyota,7,43,No
+2005,Ferrari,8,38,No
+2005,Honda,9,37,No
+2005,BMW,10,36,No
+2005,BMW,11,28,No
+2005,Cosworth,12,24,No
+2005,Petronas,13,11,No
+2005,Petronas,14,9,No
+2005,Cosworth,15,9,No
+2005,Toyota,16,7,No
+2005,Mercedes,17,6,No
+2005,Toyota,18,5,No
+2005,Cosworth,19,4,No
+2005,Mercedes,20,4,No
+2005,Cosworth,21,3,No
+2005,BMW,22,2,No
+2005,Honda,23,1,No
+2006,Renault,1,134,Sí
+2006,Ferrari,2,121,No
+2006,Ferrari,3,80,No
+2006,Renault,4,72,No
+2006,Mercedes,5,65,No
+2006,Honda,6,56,No
+2006,Honda,7,30,No
+2006,Mercedes,8,26,No
+2006,BMW,9,23,No
+2006,Toyota,10,20,No
+2006,Mercedes,11,19,No
+2006,Toyota,12,15,No
+2006,Ferrari,13,14,No
+2006,Cosworth,14,7,No
+2006,BMW,15,7,No
+2006,BMW,16,6,No
+2006,Cosworth,17,4,No
+2006,Ferrari,18,2,No
+2006,Cosworth,19,1,No
+2006,Cosworth,20,0,No
+2006,Toyota,21,0,No
+2006,Toyota,22,0,No
+2006,Honda,23,0,No
+2007,Ferrari,1,110,Sí
+2007,Mercedes,2,109,No
+2007,Mercedes,3,109,No
+2007,Ferrari,4,94,No
+2007,BMW,5,61,No
+2007,BMW,6,39,No
+2007,Renault,7,30,No
+2007,Renault,8,21,No
+2007,Toyota,9,20,No
+2007,Red Bull,10,14,No
+2007,Toyota,11,13,No
+2007,Red Bull,12,10,No
+2007,Toyota,13,8,No
+2007,Ferrari,14,6,No
+2007,Honda,15,6,No
+2007,Toyota,16,5,No
+2007,Super Aguri Honda,17,4,No
+2007,Ferrari,18,3,No
+2007,Ferrari,19,1,No
+2007,Honda,20,0,No
+2007,STR Ferrari,21,0,No
+2007,Williams Toyota,22,0,No
+2007,Super Aguri Honda,23,0,No
+2008,McLaren,1,98,Sí
+2008,Ferrari,2,97,No
+2008,Ferrari,3,75,No
+2008,Sauber BMW,4,75,No
+2008,Renault,5,61,No
+2008,Sauber BMW,6,60,No
+2008,McLaren Mercedes,7,53,No
+2008,STR Ferrari,8,35,No
+2008,Toyota,9,31,No
+2008,Toyota,10,25,No
+2008,Red Bull,11,21,No
+2008,Renault,12,19,No
+2008,Williams Toyota,13,17,No
+2008,Honda,14,11,No
+2008,Williams Toyota,15,9,No
+2008,Red Bull,16,8,No
+2008,STR Ferrari,17,4,No
+2008,Honda,18,3,No
+2008,Force India Ferrari,19,0,No
+2008,Force India Ferari,20,0,No
+2008,Super Aguri Honda,21,0,No
+2009,Brawn ,1,95,Sí
+2009,RBR Renault,2,84,No
+2009,Brawn Mercedes,3,77,No
+2009,RBR Renault,4,69.5,No
+2009,Mc Laren Mercedes,5,49,No
+2009,Ferrari,6,48,No
+2009,Williams Toyota,7,34.5,No
+2009,Toyota,8,32.5,No
+2009,Renault,9,26,No
+2009,Toyota,10,24,No
+2009,Ferrari,11,22,No
+2009,Mc Laren Mercedes,12,22,No
+2009,Sauber BMW,13,19,No
+2009,Sauber BMW,14,17,No
+2009,Ferrari,15,8,No
+2009,STR Ferrari,16,6,No
+2009,Force India Mercedes,17,5,No
+2009,Toyota,18,3,No
+2009,STR Ferrari,19,2,No
+2009,Williams Toyota,20,0,No
+2009,Renault,21,0,No
+2009,Force India Mercedes,22,0,No
+2009,Renault,23,0,No
+2010,Red Bull,1,256,Sí
+2010,Ferrari,2,252,No
+2010,RBR Renault,3,242,No
+2010,McLaren Mercedes,4,240,No
+2010,McLaren Mercedes,5,214,No
+2010,Ferrari,6,144,No
+2010,Mercedes,7,142,No
+2010,Renault,8,136,No
+2010,Mercedes,9,72,No
+2010,William Cosworth,10,47,No
+2010,Force India Mercedes,11,47,No
+2010,Sauber Ferrari,12,32,No
+2010,Renault,13,27,No
+2010,Williams Cosworth,14,22,No
+2010,Force India Mercedes,15,21,No
+2010,STR Ferrari,16,8,No
+2010,Sauber Ferrari,17,6,No
+2010,Sauber Ferrari,18,6,No
+2010,STR Ferrari,19,5,No
+2010,Lotus Cosworth,20,0,No
+2010,Lotus Cosworth,21,0,No
+2010,HTR Cosworth,22,0,No
+2010,HTR Cosworth,22,0,No
+2011,Red Bull,1,392,Sí
+2011,McLaren Mercedes,2,270,No
+2011,Red Bull Racing Renault,3,258,No
+2011,Ferrari,4,257,No
+2011,McLaren Mercedes,5,227,No
+2011,Ferrari,6,118,No
+2011,Mercedes,7,89,No
+2011,Mercedes,8,76,No
+2011,Force India Mercedes,9,42,No
+2011,Renault,10,37,No
+2011,Renault,11,34,No
+2011,Sauber Ferrari,12,30,No
+2011,Force India Mercedes,13,27,No
+2011,STR Ferrari,14,26,No
+2011,STR Ferrari,15,15,No
+2011,Sauber Ferrari,16,14,No
+2011,Williams Cosworth,17,4,No
+2011,Renault,18,2,No
+2011,William Cosworth,19,1,No
+2011,Sauber Ferrari,20,0,No
+2011,Lotus Renault,21,0,No
+2011,Lotus Renault,22,0,No
+2011,HTR Cosworth,23,0,No
+2012,Red Bull,1,281,Sí
+2012,Ferrari,2,278,No
+2012,Lotus Renault,3,207,No
+2012,McLaren Mercedes,4,190,No
+2012,McLaren Mercedes,5,188,No
+2012,RedBull Racing Renault,6,179,No
+2012,Ferrari,7,122,No
+2012,Lotus Renault,8,96,No
+2012,Mercedes,9,93,No
+2012,Sauber Ferrari,10,66,No
+2012,Force India Mercedes,11,63,No
+2012,Sauber Ferrari,12,60,No
+2012,Mercedes,13,49,No
+2012,Force India Mercedes,14,46,No
+2012,Williams Renault,15,45,No
+2012,Williams Renault,16,31,No
+2012,STR Ferrari,17,16,No
+2012,STR Ferrari,18,10,No
+2012,Caterham Renault,19,0,No
+2012,Marussia Cosworth,20,0,No
+2012,Marussia Cosworth,21,0,No
+2012,Caterham Renault,22,0,No
+2012,Lotus Renault,23,0,No
+2013,Red Bull,1,397,Sí
+2013,Ferrari,2,242,No
+2013,RedBull Racing Renault,3,199,No
+2013,Mercedes,4,189,No
+2013,Lotus Renault,5,183,No
+2013,Mercedes,6,171,No
+2013,Lotus Renault,7,132,No
+2013,Ferrari,8,112,No
+2013,McLaren Mercedes,9,73,No
+2013,Sauber Ferrari,10,51,No
+2013,McLaren Mercedes,11,49,No
+2013,Force India Mercedes,12,48,No
+2013,Force India Mercedes,13,29,No
+2013,STR Ferrari,14,20,No
+2013,STR Ferrari,15,13,No
+2013,Sauber Ferrari,16,6,No
+2013,Williams Renault,17,4,No
+2013,Williams Renault,18,1,No
+2013,Marussia Cosworth,19,0,No
+2013,Caterham Renault,20,0,No
+2013,Lotus Renault,21,0,No
+2013,Caterham Renault,22,0,No
+2013,Marussia Cosworth,23,0,No
+2014,Mercedes,1,384,Sí
+2014,Mercedes,2,317,No
+2014,RedBull Racing Renault,3,238,No
+2014,Williams Mercedes,4,186,No
+2014,RedBull Racing Renault,5,167,No
+2014,Ferrari,6,161,No
+2014,Williams Mercedes,7,134,No
+2014,McLaren Mercedes,8,126,No
+2014,Force India Mercedes,9,96,No
+2014,Force India Mercedes,10,59,No
+2014,McLaren Mercedes,11,55,No
+2014,Ferrari,12,55,No
+2014,STR Renault,13,22,No
+2014,Lotus Renault,14,8,No
+2014,STR Renault,15,8,No
+2014,Lotus Renault,16,2,No
+2014,Marussia Ferrari,17,2,No
+2014,Sauber Ferrari,18,0,No
+2014,Marussia Ferrari,19,0,No
+2014,Caterham Renault,20,0,No
+2014,Caterham Renault,21,0,No
+2015,Mercedes,1,381,Sí
+2015,Mercedes,2,322,No
+2015,Ferrari,3,278,No
+2015,Ferrari,4,150,No
+2015,Williams Mercedes,5,136,No
+2015,Williams Mercedes,6,121,No
+2015,RedBull Racing Renault,7,95,No
+2015,RedBull Racing Renault,8,92,No
+2015,Force India Mercedes,9,78,No
+2015,Force India Mercedes,10,58,No
+2015,Lotus Mercedes,11,51,No
+2015,STR Renault,12,49,No
+2015,Sauber Ferrari,13,27,No
+2015,Lotus Mercedes,14,27,No
+2015,STR Renault,15,18,No
+2015,McLaren Honda,16,11,No
+2015,Sauber Ferrari,17,9,No
+2015,Marussia Ferrari,18,0,No
+2015,Marussia Ferrari,19,0,No
+2015,Marussia Cosworth,20,0,No
+2016,Mercedes,1,385,Sí
+2016,Mercedes,2,380,No
+2016,RedBull Racing TAG,3,256,No
+2016,Ferrari,4,212,No
+2016,RedBull Racing TAG,5,204,No
+2016,Ferrari,6,186,No
+2016,Force India Mercedes,7,101,No
+2016,Williams Mercedes,8,85,No
+2016,Force India Mercedes,9,72,No
+2016,McLaren Honda,10,54,No
+2016,Williams Mercedes,11,53,No
+2016,Toro Rosso Ferrari,12,46,No
+2016,Haas Ferrari,13,29,No
+2016,Toro Rosso Ferrari,14,25,No
+2016,McLaren Honda,15,21,No
+2016,Renault,16,7,No
+2016,Sauber Ferrari,17,2,No
+2016,Renault,18,1,No
+2016,MTR Mercedes,19,1,No
+2016,McLaren Honda,20,1,No
+2016,Haas Ferrari,21,0,No
+2016,Sauber Ferrari,22,0,No
+2016,MTR Mercedes,23,0,No
+2017,Mercedes,1,363,Sí
+2017,Ferrari,2,317,No
+2017,Mercedes,3,305,No
+2017,Ferrari,4,205,No
+2017,RedBull Racing TAG,5,200,No
+2017,RedBull Racing TAG,6,168,No
+2017,Force India Mercedes,7,100,No
+2017,Force India Mercedes,8,87,No
+2017,Renault,9,54,No
+2017,Renault,10,43,No
+2017,Williams Mercedes,11,43,No
+2017,Williams Mercedes,12,40,No
+2017,Haas Ferrari,13,28,No
+2017,Haas Ferrari,14,19,No
+2017,McLaren Honda,15,17,No
+2017,McLaren Honda,16,13,No
+2017,Renault,17,8,No
+2017,Sauber Ferrari,18,5,No
+2017,Toro Rosso Ferrari,19,5,No
+2017,Sauber Ferrari,20,0,No
+2017,Toro Rosso Ferrari,21,0,No
+2017,Sauber Ferrari,22,0,No
+2017,Toro Rosso Ferrari,23,0,No
+2018,Mercedes,1,408,Sí
+2018,Ferrari,2,320,No
+2018,Ferrari,3,251,No
+2018,RedBull Racing TAG,4,249,No
+2018,Mercedes,5,247,No
+2018,RedBull Racing TAG,6,170,No
+2018,Renault,7,69,No
+2018,Force India Mercedes,8,62,No
+2018,Haas Ferrari,9,56,No
+2018,Renault,10,53,No
+2018,McLaren Renault,11,50,No
+2018,Force India Mercedes,12,49,No
+2018,Sauber Ferrari,13,39,No
+2018,Haas Ferrari,14,37,No
+2018,Toro Rosso Honda,15,29,No
+2018,McLaren Renault,16,12,No
+2018,Sauber Ferrari,17,9,No
+2018,Williams Mercedes,18,6,No
+2018,Toro Rosso Honda,19,4,No
+2018,Williams Mercedes,20,1,No
+2019,Mercedes,1,413,Sí
+2019,Mercedes,2,326,No
+2019,RedBull Racing Honda,3,278,No
+2019,Ferrari,4,264,no
+2019,Ferrari,5,240,No
+2019,McLaren Renault,6,96,No
+2019,Toro Rosso Honda,7,95,No
+2019,RedBull Racing Honda,8,92,No
+2019,Racing Point BWT Mercedes,9,52,No
+2019,McLaren Renault,10,49,No
+2019,Alfa Romeo,11,43,No
+2019,Toro Rosso Honda,12,37,No
+2019,Renault,13,37,No
+2019,Racing Point BWT Mercedes,14,21,No
+2019,Haas Ferrari,15,20,No
+2019,Alfa Romeo Racing Ferrari,16,14,No
+2019,Haas Ferrari,17,8,No
+2019,Williams Mercedes,18,1,No
+2019,Williams Mercedes,19,0,No
+2020,Mercedes,1,347,Sí
+2020,Mercedes,2,223,No
+2020,RedBull Racing Honda,3,214,No
+2020,Racing Point BWT Mercedes,4,125,No
+2020,Renault,5,119,No
+2020,McLauren Renault,6,105,No
+2020,RedBull Racing Honda,7,105,No
+2020,Ferrari,8,98,No
+2020,McLaren Renault,9,97,No
+2020,AlphaTauri Honda,10,75,No
+2020,Racing Point BWT Mercedes,11,75,No
+2020,Renault,12,62,No
+2020,Ferrari,13,33,No
+2020,AlphaTauri Honda,14,32,No
+2020,Racing Point BWT Mercedes,15,10,No
+2020,Alfa Romeo Racing Ferrari,16,4,No
+2020,Alfa Romeo Racing Ferrari,17,4,No
+2020,William Mercedes ,18,3,No
+2020,Haas Ferrari,19,2,No
+2020,Haas Ferrari,20,1,No
+2020,Williams Mercedes,21,0,No
+2020,Williams Mercedes,22,0,No
+2020,Haas Ferrari,23,0,No
+2021,Red Bull,1,395.5,Sí
+2021,Mercedes,2,387.5,No
+2021,Mercedes,3,226,No
+2021,RedBull Racing Honda,4,190,No
+2021,Ferrari,5,164.5,No
+2021,McLaren Mercedes,6,160,No
+2021,Ferrari,7,159,No
+2021,McLaren Mercedes,8,115,No
+2021,AlphaTauri Honda,9,110,No
+2021,Alpine Renault,10,81,No
+2021,Alpine Renault,11,74,No
+2021,Aston Martin Mercedes,12,43,No
+2021,Aston Martin Mercedes,13,34,No
+2021,Alpha Tauri Honda,14,32,No
+2021,Williams Mercedes,15,16,No
+2021,Alfa Romeo Racing Ferrari,16,10,No
+2021,Williams Mercedes,17,7,No
+2021,Alfa Romeo Racing Ferrari,18,3,No
+2021,Haas Ferrari,19,0,No
+2021,Alfa Romeo Racing Ferrari,20,0,No
+2021,Haas Ferrari,21,0,No
+2022,Red Bull,1,454,Sí
+2022,Ferrari,2,308,No
+2022,RedBull Racing ,3,305,No
+2022,Mercedes,4,275,No
+2022,Ferrari,5,246,No
+2022,Mercedes,6,240,No
+2022,McLaren Mercedes,7,122,No
+2022,Alpine Renault,8,92,No
+2022,Alpine Renault,9,81,No
+2022,Alfa Romeo Ferrari,10,49,No
+2022,McLaren Mercedes,11,37,No
+2022,Aston Martin Mercedes,12,37,No
+2022,Haas Ferrari,13,25,No
+2022,Alpha Tauri RBPT,14,23,No
+2022,Aston Martin Mercedes,15,18,No
+2022,Haas Ferrari,16,12,No
+2022,Alpha Tauri RBPT,17,12,No
+2022,Alfa Romeo Ferrari,18,6,No
+2022,Williams Mercedes,19,4,No
+2022,Williams Mercedes,20,2,No
+2022,Williams Mercedes,21,2,No
+2022,Aston Martin Mercedes,22,0,No
+2023,RedBull,1,575,Si
+2023,RedBull Racing Honda,2,285,No
+2023,Mercedes,3,234,No
+2023,Aston Martin Mercedes,4,206,No
+2023,Ferrari,5,206,No
+2023,McLaren Mercedes,6,205,No
+2023,Ferrari,7,200,No
+2023,Mercedes,8,175,No
+2023,McLaren Mercedes,9,97,No
+2023,Aston Martin Mercedes,10,74,No
+2023,Alpine Renault,11,62,No
+2023,Alpine Renault,12,58,No
+2023,Williams Mercedes,13,27,No
+2023,Alpha Tauri Honda,14,17,No
+2023,Alfa Romeo Ferrari,15,10,No
+2023,Haas Ferrari,16,9,No
+2023,AlphaTauri Honda,17,6,No
+2023,Alfa Romeo Ferrari,18,6,No
+2023,Haas Ferrari,19,3,No
+2023,Alpha Tauri Honda,20,2,No
+2023,Williams Mercedes,21,1,No
+2023,Alpha Tauri RBPT,22,0,No
+2024,RedBull,1,437,Sí
+2024,McLaren Mercedes,2,374,No
+2024,Ferrari,3,356,No
+2024,McLarenMercedes,4,374,No
+2024,Ferrari,5,356,No
+2024,McLaren Mercedes,6,292,No
+2024,Ferrari,7,290,No
+2024,Mercedes,8,245,No
+2024,Mercedes,9,223,No
+2024,RedBull Racing Honda,10,152,No
+2024,Aston Martin Mercedes,11,70,No
+2024,Alpine Renault,12,42,No
+2024,Haas Ferrari,13,41,No
+2024,RB Honda RBPT,14,30,No
+2024,Aston Martin Mercedes,15,24,No
+2024,Alpine Renault,16,23,No
+2024,Haas Ferrari,17,16,No
+2024,Williams Mercedes,18,12,No
+2024,RB Honda RBPT,19,12,No
+2024,Haas Ferrari,20,7,No
+2024,Williams Mercedes,21,5,No
+2024,KickSauber Ferrari,22,4,No
+2024,RB Honda RBPT,23,4,No
+2025,McLaren,1,423,Sí
+2025,RedBull Racing,2,421,No
+2025,McLaren,3,410,No
+2025,Mercedes,4,319,No
+2025,Ferrari,5,319,No
+2025,Ferrari,6,242,No
+2025,Ferrari,7,156,No
+2025,Mercedes,8,150,No
+2025,Williams ,9,73,No
+2025,Williams,10,64,No
+2025,Aston Martin Mercedes,11,56,No
+2025,KickSauber Ferrari,12,51,No
+2025,Racing Bulls,13,51,No
+2025,Haas F1 TEAM,14,38,No
+2025,Aston Martin Mercedes,15,33,No
+2025,Alpine Renault,16,22,No
+2025,KickSauber Ferrari,17,19,No
+2025,Alpine Renault,18,0,No
+2025,Alpine Renault,19,0,No
+2026,Mercedes,1,292,Sí
+2026,Mercedes,2,211,No
+2026,Ferrari,3,191,No
+2026,McLaren,4,186,No
+2026,Ferrari,5,167,No
+2026,RedBull Racing,6,145,No
+2026,McLaren,7,120,No
+2026,RedBull Racing,8,71,No
+2026,Racing Bulls,9,59,No
+2026,Alpine Renault,10,41,No
+2026,Racing Bulls,11,31,No
+2026,Alpine Renault,12,27,No
+2026,HaasF1 Team,13,18,No
+2026,Audi,14,10,No
+2026,Audi,15,7,No
+2026,Williams ,16,6,No
+2026,Williams,17,5,No
+2026,Haas F1 TEAM,18,3,No
+2026,Aston Martin Mercedes,19,3,No
+2026,Racing Bulls,20,1,No
+2026,Aston Martin Mercedes,21,0,No
+2026,Cadillac,22,0,No
+2026,Cadillac,23,0,No

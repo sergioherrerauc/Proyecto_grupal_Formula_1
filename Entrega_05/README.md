@@ -34,7 +34,7 @@ A su vez, encontramos temporadas que rompen con los patrones de dominio habitual
 | **README general** | Elaboración del README. | — | — |
 | **Visualizaciones** | Creación de los gráficos 00 y 01. | Creación del gráfico 02. | Creación del gráfico 03. |
 | **Análisis de visualizaciones** | Análisis de los gráficos 00 y 01. | Análisis general de las visualizaciones y del gráfico 02. | Análisis del gráfico 03. |
-| **Bases de datos y fichas técnicas** | Elaboración y subida de sus archivos correspondientes. | Elaboración de sus archivos correspondientes. | Elaboración y subida de sus archivos correspondientes y del de una compañera. |
+| **Bases de datos y fichas técnicas** | Elaboración y subida de sus archivos correspondientes. | Elaboración de sus archivos correspondientes. | Elaboración y subida de sus archivos correspondientes y el de una compañera. |
 | **Diseño de la webstory** | Elaboración del wireframe y propuesta estética de la página. Subida del analisis del diseño a Github | Elaboración del análisis completo de diseño. | Implementación del diseño en la página web. |
 | **Contenido y narrativa** | Propuesta de diseño y recorrido del usuario. | Edición del contenido periodístico y sugerencias sobre la narrativa web. | Implementación del contenido y la estructura narrativa. |
 | **Documentación del proceso y uso de IA** | Identificación de decisiones del equipo, problemas encontrados, soluciones aplicadas y pruebas realizadas. | Especificación comunicativa y funcional de la webstory. Relación entre hipótesis, datos, visualizaciones, textos, wireframe e implementación. | Registro de encargos realizados a la IA y cambios aplicados al código generado. |

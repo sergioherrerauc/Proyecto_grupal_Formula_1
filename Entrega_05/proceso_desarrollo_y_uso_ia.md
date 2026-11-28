@@ -44,7 +44,15 @@ Para esto, incorporamos los siguientes elementos:
 
 En general, buscábamos que la página fuera intuitiva, atractiva y accesible tanto para los fanáticos de la Fórmula 1 como para quienes no conocen demasiado sobre este deporte. La interacción debía tener un sentido dentro de la historia, complementando el relato periodístico y facilitando la comprensión de los datos, sin perder de vista el objetivo principal de nuestra investigación: cuestionar si todos los equipos tienen realmente las mismas posibilidades de ganar.
 
-## Registro de los principales encargos realizados a herramientas de IA o vibecoding, si fueron utilizadas para implementar la web (CHECHO).
+## Registro de los principales encargos realizados a herramientas de IA o vibecoding, si fueron utilizadas para implementar la web.
+
+Para el desarrollo técnico de la webstory se implementó un flujo de trabajo combinado entre Gemini y Google AI Studio (además de consultas puntuales en Claude), estructurado en distintas etapas a medida que se avanzaba en el proyecto.
+
+1. **Compilación de insumos y creación del prompt inicial:** En una primera etapa se utilizó Gemini como herramienta centralizadora. Se cargaron en una misma conversación las entregas previas del semestre almacenadas en Drive, incluyendo bases de datos, cuadernos de código, el manual de diseño, referentes visuales, códigos hexadecimales y wireframes. A partir de todo este material, se le solicitó a Gemini redactar un prompt detallado que estableciera prioritariamente la identidad visual, la estructura narrativa y el contenido de las crónicas antes de pasar a la programación.
+
+2. **Uso de Google AI Studio:** El prompt generado se trasladó a esta plataforma para construir una primera versión de la página, inspirada en los wireframes originales. Si bien esta primera versión permitió establecer el funcionamiento básico de las visualizaciones, los códigos iniciales resultaban acotados frente a la ambición editorial del proyecto.
+
+3. **Iteración de narrativa, crónicas y orden visual:** A medida que se obtenían las primeras visualizaciones, se volvió a trabajar con Gemini para redactar nuevos prompts de mayor extensión. En ellos se fueron incorporando las crónicas periodísticas del equipo, definiendo el orden de lectura de cada sección y solicitando que se respetara estrictamente la línea gráfica del manual de identidad.
 
 ## Cambios realizados por el equipo sobre el código generado o sugerido.
 
@@ -64,13 +72,15 @@ Para facilitar la revisión entre los integrantes del equipo mientras realizába
 
 ## Problemas encontrados, iteraciones y soluciones aplicadas
 
-Uno de los primeros desafíos, al menos para algunos integrantes del equipo, fue profundizar en los datos de un deporte que no conocíamos tanto y que tiene cierta complejidad. Esto dificultó en un inicio imaginar cómo sería nuestra página, qué contenido tendría y qué gráficos serían los más adecuados. Para solucionar esto, leímos bastante, vimos videos y nos fuimos adentrando cada vez más en el mundo de la Fórmula 1.
+Uno de los primeros retos, al menos para algunos integrantes del equipo, fue profundizar en los datos de un deporte que no conocíamos tanto y que tiene cierta complejidad. Esto dificultó en un inicio imaginar cómo sería nuestra página, qué contenido tendría y qué gráficos serían los más adecuados. Para solucionar esto, leímos bastante, vimos videos y nos fuimos adentrando cada vez más en el mundo de la Fórmula 1.
 
 Por otro lado, uno de los mayores desafíos fue aprender a trabajar con código y comprender algunos aspectos básicos de la programación. Para esto, intentamos definir previamente cómo queríamos que se viera y funcionara cada elemento, para luego traspasar nuestras ideas a la IA y apoyarnos en ella para la implementación del código, procurando mantener nuestro propio trabajo periodístico.
 
-Sin embargo, trabajar con IA fue más complicado de lo que imaginamos. Muchas veces ignoraba nuestras correcciones, incorporaba elementos que no habíamos solicitado o se alejaba de la idea inicial. Frente a esto, tuvimos que reiterar constantemente nuestra visión, ser más específicos con las instrucciones y pedirle que se ajustara a la información que le entregábamos.
+De hecho, trabajar con IA fue más complicado de lo que imaginamos. Muchas veces ignoraba nuestras correcciones, incorporaba elementos que no habíamos solicitado o se alejaba de la idea inicial. Frente a esto, tuvimos que reiterar constantemente nuestra visión, ser más específicos con las instrucciones y pedirle que se ajustara a la información que le entregábamos.
 
-En general, lo más complicado fue llevar a la práctica aquello que teníamos en mente. Tanto en la creación de los gráficos como en la programación final de la página, hubo mucha prueba y error, tiempos de carga y varias versiones de un mismo elemento hasta conseguir un resultado que se acercara a lo que habíamos imaginado como equipo.
+La mayor complicación de esta entrega fue la **separación del código en capas**. Al comienzo del desarrollo, Google AI Studio generaba el código de manera unificada en lugar de entregarlo dividido en capas separadas (HTML, CSS y JavaScript), lo que dificultaba la organización del repositorio. Esto se solucionó implementando un sistema temporal de descarga en formato ZIP para revisar y separar los archivos antes de subirlos a la carpeta `docs/` de GitHub Pages. Sin embargo, pudimos completar nuestras tareas. 
+
+De todas fromas, lo más difícil de proyecto fue llevar a la práctica aquello que teníamos en mente. Tanto en la creación de los gráficos como en la programación final de la página, hubo mucha prueba y error, tiempos de carga y varias versiones de un mismo elemento hasta conseguir un resultado que se acercara a lo que habíamos imaginado como equipo.
 
 
 ## Pruebas finales de contenido, cifras, fuentes, visualizaciones, interacción, lectura en dispositivos móviles y funcionamiento del código.

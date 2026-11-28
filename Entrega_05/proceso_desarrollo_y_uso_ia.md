@@ -4,15 +4,11 @@
 
 ### Investigación, datos y visualizaciones
 
-El desarrollo de nuestra webstory “¿Todos pueden ganar?” comenzó con una problemática central: cuestionar si la Fórmula 1 es realmente una competencia igualitaria o si, detrás de la aparente diversidad de pilotos y escuderías, existe una concentración del éxito en determinados equipos.
+El desarrollo de nuestra webstory “¿Todos pueden ganar?” comenzó con una problemática central: cuestionar si la Fórmula 1 es realmente una competencia igualitaria o si, detrás de la aparente diversidad de pilotos y escuderías, existe una concentración del éxito en determinados equipos. A partir de esto, decidimos investigar la distribución de los campeonatos, las victorias y los puntos, además de la posible relación entre los recursos económicos y el rendimiento deportivo.
 
-A partir de esta pregunta, establecimos una línea de investigación enfocada en analizar la distribución de los campeonatos, las victorias y los puntos obtenidos por los pilotos. También nos interesó estudiar la posible relación entre los recursos económicos de las escuderías y su rendimiento deportivo, considerando que no todos los equipos cuentan con las mismas condiciones para competir.
+Trabajamos con distintas bases de datos que abarcan el período entre 2000 y 2025, utilizando registros de campeonatos de constructores, porcentajes de carreras ganadas por los pilotos campeones y diferencias de puntos entre el primer y segundo lugar. También utilizamos antecedentes sobre presupuestos y costos por punto de las escuderías entre 2015 y 2019.
 
-En cuanto a los datos, trabajamos con distintas bases que nos permitieron abarcar el período entre 2000 y 2025. Utilizamos registros de campeonatos de constructores, porcentajes de carreras ganadas por los pilotos campeones, diferencias de puntos entre el primer y segundo lugar de cada temporada y antecedentes sobre presupuestos y costos por punto de las escuderías entre 2015 y 2019.
-
-Posteriormente, seleccionamos y organizamos los datos para construir visualizaciones que nos permitieran identificar patrones y aportar evidencia a nuestra hipótesis. Cada gráfico aborda un aspecto distinto de la competitividad, desde quiénes han conseguido ganar hasta qué tan dominantes han sido sus victorias y cómo se relaciona el rendimiento de los equipos con su inversión económica. La intención fue transformar la información estadística en evidencia visual que facilitara la comprensión de nuestra problemática.
-
-En un inicio, nuestros gráficos tendían a ser principalmente de barras. Sin embargo, a medida que avanzamos en el proyecto, fuimos modificando aquellos que consideramos que podían representarse de una manera más atractiva e interactiva, como fue el caso del primer gráfico, donde decidimos incorporar copas para mostrar los campeonatos obtenidos por cada escudería.
+A partir de estos datos, desarrollamos visualizaciones que nos permitieran identificar patrones y respaldar nuestra hipótesis, facilitando la comprensión de la información estadística. En un principio, nuestros gráficos tendían a ser principalmente de barras, pero durante el proceso fuimos modificando algunos para incorporar una mayor variedad visual e interactividad, como fue el caso del primer gráfico, donde decidimos utilizar copas para representar los campeonatos obtenidos por cada escudería.
 
 ### Escritura, diseño e implementación
 

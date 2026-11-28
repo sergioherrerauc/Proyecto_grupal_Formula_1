@@ -2,23 +2,51 @@
 
 ## Síntesis del proceso completo de desarrollo, desde las decisiones de investigación, datos, visualización, escritura y diseño hasta la implementación final.
 
-El desarrollo de la webstory “¿Todos pueden ganar?” comenzó con una problemática central: cuestionar si la Fórmula 1 es realmente una competencia igualitaria o por el contrario, existe una concentración del éxito en determinados equipos, detrás de la aparente diversidad de pilotos y escuderías, 
-A partir de esta pregunta, se estableció una línea de investigación enfocada en analizar la distribución de los campeonatos, las victorias y los puntos obtenidos por los pilotos. También, se planteó como posible argumento, la relación entre los recursos económicos de las escuderías y su rendimiento deportivo.
-En cuanto a los datos, se trabajó con distintas bases de datos que permitieron abarcar el período entre el año 2000 y 2025. Se utilizaron registros de campeonatos de constructores, porcentajes de carreras ganadas por los pilotos campeones, diferencias de puntos entre el primer y segundo lugar de cada temporada y antecedentes sobre presupuestos y costos por punto de las escuderías entre 2015 y 2019. 
-Posteriormente, se seleccionaron y organizaron los datos para construir visualizaciones que permitieran identificar patrones y respaldar la hipótesis principal. Se desarrollaron gráficos interactivos que muestran la concentración de títulos en determinadas escuderías, el porcentaje de victorias de los pilotos campeones, las diferencias de puntos entre los dos primeros lugares y las diferencias económicas entre los equipos. La intención fue transformar información estadística en evidencia visual que facilitara la comprensión del problema. Además, inicialmente los gráficos tendían a ser netamente de barras, pero aquellos que consideramos necesario modificar, los entregamos de una manera más interactiva como es el caso del gráfico 1. 
-En relación a la escritura, se entregó de manera progresiva, comenzando con la pregunta sobre la igualdad en la Fórmula 1. Luego, se presentaron distintos antecedentes y datos que permiten responder la interrogante. Los textos explicativos, titulares, subtítulos y cápsulas de curiosidades acompañan las visualizaciones, entregando contexto y ayudando a interpretar los resultados. 
-Finalmente, en el diseño e implementación se optó por una estética inspirada en la identidad visual de la Fórmula 1, utilizando principalmente negro, rojo, azul y blanco. Se usaron fotografías, referencias a las banderas a cuadros, elementos gráficos de telemetría y recursos visuales asociados a las carreras. La webstory se implementó en HTML, CSS y JavaScript, incorporando animaciones, gráficos dinámicos, botones y elementos interactivos. 
+### Investigación, datos y visualizaciones
+
+El desarrollo de nuestra webstory “¿Todos pueden ganar?” comenzó con una problemática central: cuestionar si la Fórmula 1 es realmente una competencia igualitaria o si, detrás de la aparente diversidad de pilotos y escuderías, existe una concentración del éxito en determinados equipos.
+
+A partir de esta pregunta, establecimos una línea de investigación enfocada en analizar la distribución de los campeonatos, las victorias y los puntos obtenidos por los pilotos. También nos interesó estudiar la posible relación entre los recursos económicos de las escuderías y su rendimiento deportivo, considerando que no todos los equipos cuentan con las mismas condiciones para competir.
+
+En cuanto a los datos, trabajamos con distintas bases que nos permitieron abarcar el período entre 2000 y 2025. Utilizamos registros de campeonatos de constructores, porcentajes de carreras ganadas por los pilotos campeones, diferencias de puntos entre el primer y segundo lugar de cada temporada y antecedentes sobre presupuestos y costos por punto de las escuderías entre 2015 y 2019.
+
+Posteriormente, seleccionamos y organizamos los datos para construir visualizaciones que nos permitieran identificar patrones y aportar evidencia a nuestra hipótesis. Cada gráfico aborda un aspecto distinto de la competitividad, desde quiénes han conseguido ganar hasta qué tan dominantes han sido sus victorias y cómo se relaciona el rendimiento de los equipos con su inversión económica. La intención fue transformar la información estadística en evidencia visual que facilitara la comprensión de nuestra problemática.
+
+En un inicio, nuestros gráficos tendían a ser principalmente de barras. Sin embargo, a medida que avanzamos en el proyecto, fuimos modificando aquellos que consideramos que podían representarse de una manera más atractiva e interactiva, como fue el caso del primer gráfico, donde decidimos incorporar copas para mostrar los campeonatos obtenidos por cada escudería.
+
+### Escritura, diseño e implementación
+
+La escritura del reportaje se desarrolló de manera progresiva, comenzando con la pregunta sobre la igualdad en la Fórmula 1 y presentando distintos antecedentes y datos que nos permitieran responderla. Los textos explicativos, titulares, subtítulos y cápsulas de curiosidades acompañan las visualizaciones, entregando contexto y ayudando a interpretar los resultados. Buscamos que los gráficos y los textos se complementaran entre sí y que cada sección aportara algo nuevo a la historia.
+
+En cuanto al diseño, optamos por una estética inspirada en la identidad visual de la Fórmula 1, utilizando principalmente negro, rojo, azul y blanco. Incorporamos fotografías, referencias a las banderas a cuadros, elementos gráficos de telemetría y otros recursos visuales asociados a las carreras. Con esto, buscamos transmitir parte de la emoción del deporte, sin perder la seriedad de nuestra investigación.
+
+Finalmente, la webstory se implementó en HTML, CSS y JavaScript, incorporando animaciones, gráficos dinámicos, botones y elementos interactivos. Durante este proceso fuimos revisando y modificando distintos elementos para que el funcionamiento de la página fuera coherente con las decisiones narrativas y visuales que habíamos tomado anteriormente.
+
 
 ## Especificación breve de lo que la webstory debía comunicar y cómo debía comportarse.
-La webstory debía comunicar que la Fórmula 1, a pesar de presentarse como una competencia en la que distintos pilotos y equipos tienen la posibilidad de ganar, está marcada por importantes desigualdades deportivas, técnicas y económicas. La idea principal era demostrar que la diversidad de participantes no necesariamente significa que exista una competencia equilibrada, ya que los campeonatos y las victorias tienden a concentrarse en un grupo reducido de escuderías.
-Para transmitir este mensaje, la historia debía avanzar desde una pregunta inicial sobre la igualdad en la Fórmula 1 hacia la presentación de evidencia estadística que permitiera comprender la concentración del éxito y sus posibles causas. Se buscaba que el usuario no solo recibiera información, sino que pudiera explorar los datos y descubrir por sí mismo las diferencias entre los equipos.
-Respecto a su comportamiento, la webstory debía funcionar como una experiencia interactiva y de navegación vertical, en la que el usuario avanzara por las distintas secciones mediante el desplazamiento de la página. Para ello, se incorporaron los siguientes elementos:
-Gráficos interactivos: permiten seleccionar escuderías, temporadas y métricas para explorar los datos y obtener información específica.
-Elementos desplegables: permiten revelar información adicional, como los campeonatos obtenidos por cada equipo y una guía introductoria sobre la Fórmula 1.
-Filtros de información: permiten comparar diferentes períodos y distinguir temporadas con finales más ajustados o con mayores diferencias de puntos.
-Animaciones y recursos visuales: acompañan la navegación para generar una experiencia dinámica y mantener la atención del usuario.
-Cápsulas informativas: incorporan datos curiosos que complementan la investigación y hacen más atractiva la lectura.
-En términos generales, se buscaba que la página fuera intuitiva, atractiva y accesible tanto para seguidores de la Fórmula 1 como para personas que no conocen demasiado sobre este deporte. La interacción debía complementar el relato periodístico y facilitar la comprensión de los datos, sin perder de vista el objetivo principal: demostrar que no todos los equipos compiten bajo las mismas condiciones.
+
+### ¿Qué debía comunicar?
+
+Nuestra webstory buscaba comunicar que la Fórmula 1, a pesar de presentarse como una competencia en la que distintos pilotos y equipos tienen la posibilidad de ganar, está marcada por importantes desigualdades deportivas, técnicas y económicas. La idea principal era mostrar que la diversidad de participantes no necesariamente significa que exista una competencia equilibrada, ya que los campeonatos y las victorias tienden a concentrarse en un grupo reducido de escuderías.
+
+Para transmitir este mensaje, buscamos que la historia avanzara desde una pregunta inicial sobre la igualdad en la Fórmula 1 hacia la presentación de datos que permitieran comprender la concentración del éxito y sus posibles causas.
+
+Nos interesaba que el usuario no solo recibiera información, sino que también pudiera explorar los datos, comparar distintas temporadas y descubrir por sí mismo las diferencias entre los equipos. Asimismo, buscábamos mostrar que, aunque existen patrones de dominio, también hay temporadas y resultados que escapan de estos, dando espacio a otros pilotos y escuderías.
+
+### ¿Cómo debía comportarse?
+
+Pensamos en una webstory de navegación vertical, en la que el usuario pudiera avanzar por las distintas secciones mediante el desplazamiento de la página. Queríamos que el recorrido tuviera momentos de lectura, exploración de datos e interacción, evitando que la experiencia se volviera monótona.
+
+Para esto, incorporamos los siguientes elementos:
+
+- **Gráficos interactivos:** permiten seleccionar escuderías, temporadas y métricas para explorar los datos y obtener información más específica.
+- **Elementos desplegables:** permiten revelar información adicional, como los campeonatos obtenidos por cada equipo y una guía introductoria sobre la Fórmula 1.
+- **Filtros de información:** permiten comparar diferentes períodos y distinguir temporadas con finales más ajustados o con mayores diferencias de puntos.
+- **Animaciones y recursos visuales:** acompañan la navegación y buscan generar una experiencia dinámica, relacionada con la estética del deporte.
+- **Cápsulas informativas:** incorporan datos curiosos que complementan la investigación y hacen más entretenida la lectura.
+- **Trivias y juegos:** permiten que el usuario ponga a prueba sus conocimientos y participe activamente durante el recorrido de la webstory.
+
+En general, buscábamos que la página fuera intuitiva, atractiva y accesible tanto para los fanáticos de la Fórmula 1 como para quienes no conocen demasiado sobre este deporte. La interacción debía tener un sentido dentro de la historia, complementando el relato periodístico y facilitando la comprensión de los datos, sin perder de vista el objetivo principal de nuestra investigación: cuestionar si todos los equipos tienen realmente las mismas posibilidades de ganar.
 
 ## Registro de los principales encargos realizados a herramientas de IA o vibecoding, si fueron utilizadas para implementar la web (CHECHO).
 
